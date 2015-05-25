@@ -2,55 +2,34 @@
 
 \section{Método de desarrollo}
 
-Kingdom of Hatred se desarrollará mediante un sistema iterativo e incremental. Este proceso de desarrollo suple las carencias del modelo de cascada, el modelo tradicional que establece una rigorosa jerarquía en las fases del desarrollo y requiere completar una fase para comenzar la siguiente.
+Kingdom of Hatred se desarrollará mediante un sistema iterativo e incremental. Este proceso de desarrollo suple las carencias del modelo de cascada, el modelo tradicional que establece una rigorosa jerarquía en las fases del desarrollo y requiere completar una fase para comenzar la siguiente. En la Figura 2.1 se puede observar el diagrama del modelo incremental.
 
-El desarrollo incremental permite desarrollar una parte funcional del proyecto en cada etapa, reservando la mejor o extensión de funcionalidades para el futuro y por tanto controlando la complejidad y los riesgos. Además, este sistema permite a los desarrolladores aprovechar conocimiento adquirido en etapas previas e incorporar nuevo conocimiento y nuevas técnicas en fases venideras.
+\begin{figure}[!htp]
+ \centering
+ \includegraphics{fig/modelo_incremental}
+ \caption{Modelo incremental}
+\end{figure}
+
+El desarrollo incremental permite desarrollar una parte funcional del proyecto en cada etapa, reservando la mejora o extensión de funcionalidades para el futuro y por tanto controlando la complejidad y los riesgos. Además, este sistema permite a los desarrolladores aprovechar conocimiento adquirido en etapas previas e incorporar nuevo conocimiento y nuevas técnicas en fases venideras.
 
 Adicionalmente, esta metodología confía en el desarrollo guiado por tests. Esta práctica consiste en el desarrollo de tests antes que código, y después se genera el mínimo código posible para completar esos tests. El objetivo de esta metodología es lograr código limpio y funcional, la idea es que los requisitos se traducen a evidencia, de forma que si los tests se completan satisfactoriamente, se garantiza que el software cubre dicho requisitos.
-
-\begin{enumerate}
-	\item \textbf{Análisis de las herramientas a usar:}
-
-	En esta fase se analizarán todas las posibles herramientas que se pueden usar para el desarrollo del proyecto y se elegirán las más adecuadas de acuerdo a las necesidades del proyecto y a los conocimientos del equipo de trabajo.
-	\item \textbf{Integración y modelado de datos:}
-
-	Es la fase en la que se identificará y seleccionarán las tablas del repositorio de las que se extraerá la información para su adaptación a Dublin Core.
-	\item \textbf{Creación del servidor de OAI-PMH:}
-
-	Diseño e implementación servidor.
-	\item \textbf{Creación de la aplicación web:}
-
-	Diseño e implementación del front-end de la aplicación web. 
-	\item \textbf{Validación técnica y de usabilidad:}
-
-	Es la fase donde se realizarán las pruebas finales del sistema completo.
-	\item \textbf{Documentación y despliegue en producción:}
-
-	Es donde se terminará de redactar la documentación necesaria y se desplegará el producto.
-\end{enumerate}
 
 \subsection{Productos intermedios}
 
 Los productos intermedios que se generarán en cada una de las fases son:
 
 \begin{itemize}
-	\item \textbf{Integración y modelado de datos:}
+	\item \textbf{Diseño del juego:}
 	\begin{itemize}
-		\item Especificación y diseño de la base de conocimiento del servidor OAI-PMH.
+		\item Documento de diseño de juego.
 	\end{itemize}
-	\item \textbf{Creación parte servidora del sistema:}
+	\item \textbf{Desarrollo del software:}
 	\begin{itemize}
-		\item Módulo de proveedor de la base de conocimiento.
-		\item Módulo de adaptación y almacenamiento del conocimiento en Dublin Core.
-		\item Módulo de servicio de XMLs.
+		\item Documento con la especificación del software.
 	\end{itemize}
-	\item \textbf{Creación de la aplicación web:}
+	\item \textbf{Validación técnica y usabilidad:}
 	\begin{itemize}
-		\item Aplicación web del sistema.
-	\end{itemize}
-	\item \textbf{Validación técnica y de usabilidad:}
-	\begin{itemize}
-		\item Informe de evaluación del sistema
+		\item Informe de evaluación del juego.
 	\end{itemize}
 \end{itemize}
 
@@ -64,41 +43,28 @@ Los productos intermedios que se generarán en cada una de las fases son:
 
 \section{Tareas principales}
 
-La implantación del proyecto comprende las siguientes tareas o actividades: 
+El desarrollo de Kingdom of Hatred comprende las siguientes tareas o actividades:
 
-\subsection{Análisis de las herramientas a usar:}
+\subsection{Lanzamiento del proyecto}
 
 \begin{itemize}
-	\item \textbf{Análisis de herramientas provistas por OAI para implementar los requisitos mínimos para repositorio del protocolo OAI-PMH.}
+	\item \textbf{Organización}
 
-	Investigar las distintas alternativas que hay para crear un servidor que beba de distintos tipos repositorios.
-	\item \textbf{Análisis de herramientas para desarrollo web.}
+	Actividad mediante la que se define y prepara la planificación, asignación de misiones y el lanzamiento del proyecto y sus sucesivas fases.
+	\item \textbf{Seguimiento}
 
-	Investigar las distintas herramientas que hay para el desarrollo web y que sean adecuadas para el propósito del proyecto.
-	\item \textbf{Análisis de herramientas semánticas.}
-
-	Investigar las distintas alternativas para realizar búsquedas según los estándares de la web semántica. 
+	Realización del seguimiento y control del desarrollo del proyecto, que permita la rápida detención y solución de problemas que puedan dificultar la buena marcha del mismo.
 \end{itemize}
 
-\subsection{Integración y modelado de datos:}
+\subsection{Análisis de herramientas y técnicas}
 
 \begin{itemize}
-	\item \textbf{Desarrollo del proveedor.}
+	\item \textbf{Análisis de herramientas para desarrollo de juegos}
 	
-	Desarrollo del sistema de extracción de datos de las tablas necesarias del repositorio PostgreSQL.
+	Investigar distintas alternativas que existen para el desarrollo de juegos.
 
-	\begin{enumerate}
-		\item Formación: aprendizaje en el uso de las herramientas.
-		\item Diseño: diseño del sistema de extracción de datos.
-		\item Implementación: programación del sistema de extracción de datos.
-		\item Pruebas: pruebas del sistema de extracción de datos.
-	\end{enumerate}
-	\item \textbf{Diseño del modelo relacional de datos de OAI-PMH.}
-	\begin{enumerate}
-		\item Diseño: diseño del modelo de la base de datos. 
-		\item Implementación: inserción del modelo de datos en la base de datos.
-		\item Pruebas: pruebas de la base de datos junto con el sistema de extracción de datos.
-	\end{enumerate}
+	\item \textbf{Análisis de técnicas de generación procedural}
+	Investigar distintos algoritmos de generación procedural que sean adecuados para la generación de niveles.
 \end{itemize}
 
 \subsection{Creación parte servidora del sistema:}
