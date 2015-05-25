@@ -1,9 +1,9 @@
-[0] Config.pm:318> INFO - This is Biber 1.8
-[0] Config.pm:321> INFO - Logfile is 'PFG-Jesus-Sesma.blg'
-[83] biber:275> INFO - === Tue May 26, 2015, 00:30:38
-[83] Biber.pm:333> INFO - Reading 'PFG-Jesus-Sesma.bcf'
+[1] Config.pm:318> INFO - This is Biber 1.8
+[1] Config.pm:321> INFO - Logfile is 'PFG-Jesus-Sesma.blg'
+[87] biber:275> INFO - === Tue May 26, 2015, 00:46:11
+[87] Biber.pm:333> INFO - Reading 'PFG-Jesus-Sesma.bcf'
 [161] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
 [162] Utils.pm:169> WARN - The file 'PFG-Jesus-Sesma.bcf' does not contain any citations!
-[179] bbl.pm:482> INFO - Writing 'PFG-Jesus-Sesma.bbl' with encoding 'UTF-8'
-[179] bbl.pm:555> INFO - Output to PFG-Jesus-Sesma.bbl
-[180] Biber.pm:105> INFO - WARNINGS: 1
+[178] bbl.pm:482> INFO - Writing 'PFG-Jesus-Sesma.bbl' with encoding 'UTF-8'
+[178] bbl.pm:555> INFO - Output to PFG-Jesus-Sesma.bbl
+[178] Biber.pm:105> INFO - WARNINGS: 1

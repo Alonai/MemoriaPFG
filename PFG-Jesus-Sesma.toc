@@ -30,21 +30,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}EDT}{8}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Tareas principales}{9}{section.4.2}
+\contentsline {section}{\numberline {4.2}Tareas principales}{8}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Lanzamiento del proyecto}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Lanzamiento del proyecto}{8}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Análisis de herramientas y técnicas}{9}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Análisis de herramientas y técnicas}{8}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Creación parte servidora del sistema:}{9}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Diseño del juego}{9}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Creación de la aplicación web:}{9}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Desarrollo del software}{9}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.5}Validación técnica y de usabilidad:}{9}{subsection.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Documentación y despliegue en producción:}{10}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.6}Distribución y cierre del proyecto}{9}{subsection.4.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Hoja de Tareas}{10}{section.4.3}
+\contentsline {section}{\numberline {4.3}Hoja de Tareas}{9}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Organización, Equipo}{17}{chapter.5}
 \defcounter {refsection}{0}\relax 

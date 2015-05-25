@@ -2,12 +2,13 @@
 
 \section{Método de desarrollo}
 
-Kingdom of Hatred se desarrollará mediante un sistema iterativo e incremental. Este proceso de desarrollo suple las carencias del modelo de cascada, el modelo tradicional que establece una rigorosa jerarquía en las fases del desarrollo y requiere completar una fase para comenzar la siguiente. En la Figura 2.1 se puede observar el diagrama del modelo incremental.
+Kingdom of Hatred se desarrollará mediante un sistema iterativo e incremental. Este proceso de desarrollo suple las carencias del modelo de cascada, el modelo tradicional que establece una rigorosa jerarquía en las fases del desarrollo y requiere completar una fase para comenzar la siguiente. En la Figura \ref{fig:modeloI} se puede observar el diagrama del modelo incremental.
 
 \begin{figure}[!htp]
  \centering
  \includegraphics{fig/modelo_incremental}
  \caption{Modelo incremental}
+ \label{fig:modeloI}
 \end{figure}
 
 El desarrollo incremental permite desarrollar una parte funcional del proyecto en cada etapa, reservando la mejora o extensión de funcionalidades para el futuro y por tanto controlando la complejidad y los riesgos. Además, este sistema permite a los desarrolladores aprovechar conocimiento adquirido en etapas previas e incorporar nuevo conocimiento y nuevas técnicas en fases venideras.
@@ -37,7 +38,7 @@ Los productos intermedios que se generarán en cada una de las fases son:
 
 \begin{figure}[!htp]
 	\centering
-	\includegraphics[angle=-90, scale=.5]{fig/edt}
+	\includegraphics[angle=90, scale=.5]{fig/edt}
 	\caption{EDT}
 \end{figure}
 
@@ -67,47 +68,42 @@ El desarrollo de Kingdom of Hatred comprende las siguientes tareas o actividades
 	Investigar distintos algoritmos de generación procedural que sean adecuados para la generación de niveles.
 \end{itemize}
 
-\subsection{Creación parte servidora del sistema:}
+\subsection{Diseño del juego}
 
 \begin{itemize}
-	\item Implementación del servidor OAI-PMH.
-
-	Puesta en marcha del servidor OAI-PMH que transforma datos almacenados mediante un modelo relacional a Dublin Core.
-
-	\begin{enumerate}
-		\item Implementación: configuración del servidor.
-		\item Pruebas: pruebas del servidor.
-	\end{enumerate}
+	\item Diseño del juego
+	Crear el documento de desarrollo de juego que definirá cómo será este.
 \end{itemize}
 
-\subsection{Creación de la aplicación web:}
+\subsection{Desarrollo del software}
 
 \begin{itemize}
-	\item \textbf{Desarrollo del front-end del sistema.}
-	\begin{enumerate}
-		\item Formación en la herramienta de desarrollo web.
-		\item Diseño básico de la plataforma web.
-		\item Diseño del módulo de búsquedas semánticas.
-		\item Diseño del módulo de búsquedas facetadas.
-	\end{enumerate}	
+	\item \textbf{Formación}
+	Aprendizaje en la creación de juegos.
+	\item \textbf{Diseño}
+	Diseño del software del juego.
+	\item \textbf{Implementación}
+	Implementación del juego.
 \end{itemize}
 
 \subsection{Validación técnica y de usabilidad:}
 
 \begin{itemize}
-	\item \textbf{Pruebas del servidor OAI-PMH.}
-	\item \textbf{Pruebas de la plataforma web.}
+	\item \textbf{Betatesting}
+	Uso intensivo del juego en busca de bugs.
+	\item \textbf{Prueba de experiencia de usuario}
+	Recoger opiniones para mejorar la experiencia de usuario.
 \end{itemize}
 
-\subsection{Documentación y despliegue en producción:}
+\subsection{Distribución y cierre del proyecto}
 
 \begin{itemize}
-	\item \textbf{Publicación de la aplicación en el portal web de MoreLab.}
+	\item \textbf{Despliegue de la versión final}
 	
-	Instalar la aplicación web en el servidor de LabMan y publicarlo en el portal web.
-	\item \textbf{Desplegar el servidor OAI-PMH.}
+	Preparar el juego para el usuario final.
+	\item \textbf{Cierre del proyecto}
 
-	Instalar el servidor OAI-PMH, recolectar y exportar la información del repositorio.
+	Cierre del proyecto.
 \end{itemize}
 
 \section{Hoja de Tareas}
