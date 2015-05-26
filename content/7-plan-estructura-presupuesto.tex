@@ -769,82 +769,81 @@ El desarrollo de Kingdom of Hatred comprende las siguientes tareas o actividades
 
 \section{Esquema organizativo}
 
-La organización del proyecto se articula en torno al comité dirección y al equipo de trabajo que se va a encargar de desarrollar el producto, en función de la estructura de la figura 5.1.
+La organización del proyecto se articula en torno al comité de dirección y al equipo de trabajo que se va a encargar de desarrollar el producto, en función de la estructura de la Figura \ref{fig:esqOrg}.
 
 \begin{figure}[!htp]
 	\centering
-	\includegraphics[scale=.75]{fig/organization}
-	\caption{Esquema organizativo}
+	\includegraphics[scale=.75]{fig/esq}
+	\caption{Esquema Organizativo}
+	\label{fig:esqOrg}
 \end{figure}
 
 \begin{itemize}
-	\item Comité de dirección: su función principal es orientar por dónde debería ir el proyecto y tomar las decisiones finales a la hora de qué hacer o no.  Además, este comité deberá aprobar las diferentes fases del proyecto.
-	\item Equipo de trabajo: el órgano encargado de diseñar y desarrollar el contenido del proyecto en función de las diferentes fases estipuladas.
+	\item Comité de dirección 
+	Su función principal es asesorar el proyecto y la toma de decisiones. Formado por el jefe de proyecto.
+	\item Equipo de trabajo
+	El órgano encargado de diseñar, desarrollar y testear el contenido del proyecto en función de las diferentes fases estipuladas. Formado por el programador, el diseñador y el tester.
 \end{itemize}
 
 \section{Plan de Recursos Humanos}
 \label{sec:planRecursosHumanos}
 
-El equipo de trabajo estará formado por los siguientes perfiles directamente relacionados con las diferentes áreas de competencias que se abordan en el proyecto: 
+El equipo de trabajo estará formado por los siguientes perfiles directamente relacionados con las diferentes áreas de competencias que abordan el proyecto:
 
 \begin{itemize}
-	\item Jefe de proyecto: su función es realizar las actividades de organización, coordinación y seguimiento del proyecto.
-	\item Administrador de base de datos: su función es la de gestionar de una manera óptima la base de datos PostgreSQL y SPARQL y su función geoespacial. 
-	\item Programador: su función es la desarrollar toda la lógica del programa como la implementación de la plataforma web. 
-	\item Diseñador: su función es la diseñar interfaces intuitivas para el usuario y adaptables para distintos dispositivos (portátiles, tablets, móviles) 
-	\item Experto en web semántica: su función es la de ayudar al equipo de trabajo a la hora de crear el sistema de búsquedas semánticas y facetadas. 
+	\item Jefe de proyecto:
+	Sus funciones son realizar las actividades de organización, coordinación y seguimiento del proyecto. Por otro lado, deberá encargarse del diseño del juego. Con un jefe de proyecto es suficiente. Para el perfil será necesario alguien con experiencia en comunicación interpersonal, liderazgo y solución de problemas.
+	\item Programador:
+	Encargado de diseñar e implementar el software en base al diseño del 	juego. Será necesario conocimiento de ingeniería del software para llevar a cabo las tareas asignadas a este perfil.
+	\item Tester:
+	Encargado de probar el producto y reportar errores y sugerir mejoras. 	Para hacer las 	pruebas de fase beta será suficiente con un tester. 	Sin embargo, para las prueba de 	experiencia de usuario sería 	conveniente contar con el mayor número de personas 	posibles. El tester debe ser tener imaginación y ser creativo para llevar al juego a situaciones límite y encontrar el mayor número de errores posible.
 \end{itemize}
-
-Debido a el bajo número de personas que compone el equipo de desarrollo se ha acordado trabajar mediante reuniones de seguimiento semanales pero también tras terminar cada tarea. En las reuniones semanales se reunirán todos los miembros del equipo, mientras que en las que corresponden a una tarea finalizada lo harán solo los que han participado en dicha tarea junto a el director de proyecto. Su finalidad será comentar los avances y/o problemas que hayan podido ocurrir, aunque también servirán para que el director de el visto bueno a la tarea y pasar a la siguiente. 
 
 \chapter{Condiciones de ejecución}
 
 \section{Entorno de trabajo}
 
-El lugar de trabajo habitual serán las instalaciones de DeustoTech, aunque también se trabajará en casa para poder terminar a tiempo el proyecto.
-
-El calendario y horario serán los correspondientes a los lugares de trabajo anteriormente mencionados durante una jornada laboral de aproximadamente 4 horas al día. Este horario podría verse modificado si se requiriera con el fin de cumplir los plazos establecidos.
-
-En principio el director de proyecto será el responsable de todos los productos del desarrollo, y deberá dar el visto bueno a las herramientas que serán utilizadas para preservar las copias de seguridad y de definir cada cuanto tiempo deberán hacerse. En caso de que los desarrolladores no cumplan con estos requisitos y de producirse una perdida en el desarrollo serán estos los que asuman la responsabilidad, teniendo que optar por realizar horas extra o asumir de su sueldo la penalización que llegase a imponer el cliente en caso de no poder cumplirse con los plazos.
-
-Los medios informáticos para la ejecución del proyecto deberán ser provistos por DeustoTech o serán los ordenadores personales de los integrantes del equipo. DeustoTech será responsable de todos los productos provistos para el desarrollo, salvo de aquellos medios pertenecientes a los propios desarrolladores. Los medios son los siguientes: 
+El lugar de trabajo habitual será el domicilio del trabajador.
+El calendario y horario serán 3 horas al día, preferiblemente de lunes a viernes.
+Los medios informáticos para la ejecución corren a cargo del trabajador. Los medios de los que se disponen actualmente y se usarán son los siguientes: 
 
 \begin{itemize}
 	\item Hardware
 	\begin{itemize}
-		\item Macbook Pro Retina 2012
-		\item Servidor del repositorio Linux
-		\item Monitor secundario
+		\item Ordenador de sobremesa completo con monitor secundario
+		\item Ordenador portátil
 	\end{itemize}
 	\item Software
 	\begin{itemize}
-		\item Licencia Sublime Text 2
-		\item OS X
-		\item Office 2011
-		\item PostgreSQL
-		\item SPARQL
+		\item Todo el software que se use será gratuito, así que este apartado no supondrá un problema.
 	\end{itemize}
 \end{itemize}
 
 \section{Control de cambios}
 
-Todas las peticiones que impliquen cambios en el diseño o en lo que ya está desarrollado, serán estudiadas y solo seguirán adelante si son modificaciones razonables y que son posibles de hacer dentro del plazo acordado. El procedimiento que habrá que seguir a la hora de  solicitar un cambio será:
+Tanto jefe de proyecto como el tutor tienen potestad para pedir modificaciones en las 	especificaciones, diseños o desarrollos ya realizados. En caso de querer modificar algo, se 	seguirá el siguiente procedimiento:
 
 \begin{enumerate}
-	\item Comunicación de DeustoTech de las modificaciones solicitadas.
-	\item Valoración por el equipo del proyecto de la repercusión técnica y cambios de plazos.
-	\item Presentación de la decisión tomada por el equipo a DeustoTech.
-	\item Notificación por parte de DeustoTech de la aprobación o no de la propuesta.	
-	\item En caso afirmativo, modificación del plan de trabajo y del presupuesto.
+	\item Comunicación formal del solicitante de las modificaciones solicitadas.
+	\item Valoración, por parte del jefe del proyecto y el equipo de desarrollo, de la repercusión 	técnica, económica y el plazo de ejecución.
+	\item Presentación de una propuesta valorada al solicitante.
+	\item Notificación, por parte del solicitante, de la aprobación o no de la propuesta.
+	\item En caso afirmativo, modificación del plan de trabajo y presupuesto.
 \end{enumerate}
 
 \section{Recepción de productos}
 
-Para la recepción de productos el equipo del proyecto definirá una serie de pruebas que serán estrictamente ejecutadas. Una vez pasadas las pruebas, el jefe de proyecto deberá revisar y aceptar el producto para poder presentarlo oficialmente a DeustoTech.  En caso de que exista algún problema tras la revisión,  la dirección de DeustoTech-Internet deberá comunicarlo en un plazo máximo de 5 días para poder llevar a cabo las modificaciones y así poder seguir con la siguiente fase del proyecto. En caso de no obtener respuesta en el intervalo de tiempo especificado anteriormente, se considerará aprobado.
+Los productos generados durante el proyecto son el punto de partida para trabajo venidero, y deben ser enviados al jefe de proyecto para evaluación y aprobado.
 
-DeustoTech-Internet es el equipo de investigación centrado en el desarrollo web de la Universidad de Deusto. Este proyecto se ha delegado a varios de sus colaboradores de investigación. Dado a la estrecha relación que existen entre ambos no se han definido todos los requisitos desde el punto de partida, lo cual puede causar que retrasos en la fecha de entrega del producto. Sin embargo, al un proyecto interno no se le ha dado mayor importancia.
+Tras el envío, habrá 3 días laborables para comunicar cualquier error o comentario al equipo de trabajo, el cual procederá a crear una revisión del documento y comenzará un nuevo periodo de aprobación. Si pasados los 3 días laborables no se ha recibido respuesta, la entrega se considerará válida.
+
+Durante el desarrollo de cualquiera de los productos del proyecto, el jefe de proyecto asume 	la responsabilidad si cualquiera de ellos no se hace o no alcanza la calidad esperada. 	Consecuentemente, el jefe de proyecto debe cercionarse que el trabajo de todos marcha 	adecuadamente y tomar medidas correctoras en caso contrario.
+
+El jefe de proyecto será el portavoz del equipo de desarrollo durante la marcha del proyecto, 	y tendrá que comunicarse con el tutor e informarle adecuadamente del estado de la 	realización en cada momento.
 
 \chapter{Planificación}
+
+En esta sección se exponen los diversos aspectos relacionados con la planificación del proyecto.
 
 \section{Diagrama de precedencias}
 
@@ -876,7 +875,7 @@ DeustoTech-Internet es el equipo de investigación centrado en el desarrollo web
 
 \section{Equipo Real}
 
-El equipo real está compuesto por un único desarrollador, este desarrollador realizaría todas las tareas en cada uno de los roles descritos en la sección \ref{sec:planRecursosHumanos}.
+El equipo real está formado por una única persona, que asumirá todos los roles del proyecto.
 
 \begin{center}
 	\captionof{table}{Carga de trabajo del equipo real}
@@ -977,11 +976,9 @@ El equipo real está compuesto por un único desarrollador, este desarrollador r
 	\begin{tabular}{|l|r|}
 		\hline
 		Perfil de trabajo & Carga de trabajo(h) \\ \hline
-		Jefe de proyecto & 6,05 \\ \hline
-		Administrador de base datos & 64,05 \\ \hline
-		Diseñador gráfico & 26,22 \\ \hline
-		Experto en web semántica & 26,22 \\ \hline
-		Programador & 185,48 \\
+		Jefe de proyecto & 54 \\ \hline
+		Programador & 321 \\ \hline
+		Tester & 90 \\ \hline
 		\hline
 	\end{tabular}
 \end{center}
@@ -995,27 +992,15 @@ El equipo real está compuesto por un único desarrollador, este desarrollador r
 	\begin{tabular}{| l | r | r | r |}
 		\hline
 		Rol					&	Precio/hora(\euro/h)	&	Carga de trabajo(h)	&	Importe total(\euro)	\\	\hline
-		Jefe de proyecto	& 	40						&	6,05 					& 	242,00				\\	\hline
-		Administrador de base de datos &	25			&	64,05					&	1.601,25			\\	\hline
-		Programador			&	25						&	185,48					&	4.637,00			\\	\hline
-		Diseñador			&	15						&	26,22					&	393,30				\\	\hline
-		Experto en web semántica	&		30			&	26,22					&	786,60				\\
-		\hline
+		Jefe de proyecto	& 	30						&	54 					& 	1620,00				\\	\hline
+		Programador			&	25						&	321					&	8025,00			\\	\hline
+		Tester			&	15						&	90					&	1350,00				\\	\hline
 	\end{tabular}
 \end{center}
 
 \section{Recursos Software}
 
-\begin{center}
-	\captionof{table}{Presupuesto: Software}
-	\begin{tabular}{| l | r | r | r |}
-		\hline
-		Nombre					&	Precio(\euro)	&	Unidades	&	Importe total(\euro)	\\	\hline
-		Licencia Sublime Text 2	& 	70				&	1 			& 	70						\\	\hline
-		Office 2011 			&	99				&	1			&	99						\\
-		\hline
-	\end{tabular}
-\end{center}
+Como ya se ha dicho, todo el software utilizado para el proyecto será gratuito, de forma que no habrá gastos de este tipo.
 
 \section{Recursos Hardware}
 
@@ -1024,8 +1009,8 @@ El equipo real está compuesto por un único desarrollador, este desarrollador r
 	\begin{tabular}{| l | r | r | r |}
 		\hline
 		Nombre				&	Precio(\euro)	&	Unidades	&	Importe total(\euro)	\\	\hline
-		MBPR2012			& 	3.334			&	1 			&	3.334					\\	\hline
-		Monitor secundario	&	300				&	1			&	300						\\
+		Ordenador de sobremesa			& 	1500			&	1 			&	1500					\\	\hline
+		Ordenador portátil	&	700				&	1			&	700						\\
 		\hline
 	\end{tabular}
 \end{center}
@@ -1037,10 +1022,9 @@ El equipo real está compuesto por un único desarrollador, este desarrollador r
 	\begin{tabular}{| l | r |}
 		\hline
 		Tipo				&	Total			\\	\hline
-		Recursos Humanos	& 	7.660,15		\\	\hline
-		Recursos Software	&	169,00			\\	\hline
-		Recursos Hardware	&	3.634,00		\\	\hline
-		\textbf{Total}		&	\textbf{11.463,15}	\\
+		Recursos Humanos	& 	10995		\\	\hline
+		Recursos Hardware	&	2200		\\	\hline
+		\textbf{Total}		&	\textbf{13195}	\\
 		\hline
 	\end{tabular}
 \end{center}

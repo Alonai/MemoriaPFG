@@ -58,26 +58,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Control de cambios}{19}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Recepción de productos}{20}{section.6.3}
+\contentsline {section}{\numberline {6.3}Recepción de productos}{19}{section.6.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Planificación}{21}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Diagrama de precedencias}{21}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Equipo Real}{24}{section.7.2}
+\contentsline {section}{\numberline {7.2}Equipo Real}{25}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Plan de trabajo}{25}{section.7.3}
+\contentsline {section}{\numberline {7.3}Plan de trabajo}{26}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Diagrama de Gantt}{33}{section.7.4}
+\contentsline {section}{\numberline {7.4}Diagrama de Gantt}{34}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Estimación de cargas de trabajo por perfil}{36}{section.7.5}
+\contentsline {section}{\numberline {7.5}Estimación de cargas de trabajo por perfil}{37}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Presupuesto}{37}{chapter.8}
+\contentsline {chapter}{\numberline {8}Presupuesto}{39}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Recursos Humanos}{37}{section.8.1}
+\contentsline {section}{\numberline {8.1}Recursos Humanos}{39}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Recursos Software}{37}{section.8.2}
+\contentsline {section}{\numberline {8.2}Recursos Software}{39}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Recursos Hardware}{37}{section.8.3}
+\contentsline {section}{\numberline {8.3}Recursos Hardware}{39}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Total}{37}{section.8.4}
+\contentsline {section}{\numberline {8.4}Total}{39}{section.8.4}
