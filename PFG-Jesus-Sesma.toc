@@ -64,13 +64,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Diagrama de precedencias}{21}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Equipo Real}{26}{section.7.2}
+\contentsline {section}{\numberline {7.2}Equipo Real}{27}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Plan de trabajo}{27}{section.7.3}
+\contentsline {section}{\numberline {7.3}Plan de trabajo}{28}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Diagrama de Gantt}{35}{section.7.4}
+\contentsline {section}{\numberline {7.4}Diagrama de Gantt}{36}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Estimación de cargas de trabajo por perfil}{37}{section.7.5}
+\contentsline {section}{\numberline {7.5}Estimación de cargas de trabajo por perfil}{38}{section.7.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Presupuesto}{39}{chapter.8}
 \defcounter {refsection}{0}\relax 
