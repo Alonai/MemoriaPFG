@@ -1,0 +1,66 @@
+\documentclass{DeustoFDP}
+
+\usepackage{hologo} % Paquete no necesario. Borrar en la memoria final al sustituir el texto
+\usepackage{eurosym}
+\usepackage[toc, acronym, nomain]{glossaries}
+
+\setlength{\headheight}{12.22504pt}
+
+\hypersetup{
+  pdfauthor={Jesus María Sesma Solance},
+  pdftitle={Gesti\'on de repositorios sem\'anticos compatibles con el est\'andar OAI-PMH},
+}
+
+\bibliography{bibliografia}
+\makeglossaries
+
+\begin{document}
+
+\input{content/acronyms}
+
+\frontmatter 
+\pagestyle{plain}
+
+% Las siguientes lineas (21--26) se pueden eliminar del documento final.
+% Notese que en ese caso es necesario descomentar la linea 28 para que las
+% paginas esten correctamente numeradas.
+\begin{titlepage} 
+  \newgeometry{left=0cm,right=0cm,bottom=0cm,top=0cm}
+  \includegraphics{fig/portada_rendered}
+  \restoregeometry
+\end{titlepage}
+\cleardoublepage
+
+%\setcounter{page}{3}
+
+\input{content/abstract}
+
+\cleardoublepage\tableofcontents
+\cleardoublepage\listoffigures
+\cleardoublepage\listoftables
+\cleardoublepage\lstlistoflistings
+
+\mainmatter
+\pagestyle{phdthesis}
+
+\input{content/introduction}
+\input{content/project-objectives}
+\input{content/requirements-specification}
+\input{content/technologies}
+\input{content/design-specification}
+\input{content/implementation-considerations}
+\input{content/test-work-plan}
+\input{content/users-manual}
+\input{content/incidents}
+\input{content/conclusions}
+
+\printbibliography[heading=bibintoc]
+\printglossary[type=\acronymtype, title=Acrónimos, toctitle= Acrónimos]
+
+\appendix
+
+\input{content/acknowledgements}
+
+\backmatter
+
+\end{document}

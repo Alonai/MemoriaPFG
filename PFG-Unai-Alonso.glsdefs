@@ -1,0 +1,600 @@
+\ifglsentryexists{xml}{}%
+{%
+\gls@defglossaryentry{xml}%
+{%
+name={XML},%
+sort={XML},%
+type={acronym},%
+first={Extensible Markup Language (XML)},%
+firstplural={Extensible Markup Languages(XMLs)},%
+text={XML},%
+plural={XMLs},%
+description={Extensible Markup Language},%
+descriptionplural={Extensible Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Markup Language},%
+longplural={Extensible Markup Languages},%
+short={XML},%
+shortplural={XMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bd}{}%
+{%
+\gls@defglossaryentry{bd}%
+{%
+name={BD},%
+sort={BD},%
+type={acronym},%
+first={Base de Datos (BD)},%
+firstplural={Bases de Datos (BDs)},%
+text={BD},%
+plural={BDs},%
+description={Base de Datos},%
+descriptionplural={Bases de Datos},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Base de Datos},%
+longplural={Bases de Datos},%
+short={BD},%
+shortplural={BDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{http}{}%
+{%
+\gls@defglossaryentry{http}%
+{%
+name={HTTP},%
+sort={HTTP},%
+type={acronym},%
+first={Hypertext Transfer Protocol (HTTP)},%
+firstplural={Hypertext Transfer Protocols(HTTPs)},%
+text={HTTP},%
+plural={HTTPs},%
+description={Hypertext Transfer Protocol},%
+descriptionplural={Hypertext Transfer Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hypertext Transfer Protocol},%
+longplural={Hypertext Transfer Protocols},%
+short={HTTP},%
+shortplural={HTTPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rmbp}{}%
+{%
+\gls@defglossaryentry{rmbp}%
+{%
+name={rMBP},%
+sort={rMBP},%
+type={acronym},%
+first={Retina Macbook Pro (rMBP)},%
+firstplural={Retina Macbook Pros(rMBPs)},%
+text={rMBP},%
+plural={rMBPs},%
+description={Retina Macbook Pro},%
+descriptionplural={Retina Macbook Pro\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Retina Macbook Pro},%
+longplural={Retina Macbook Pros},%
+short={rMBP},%
+shortplural={rMBPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{oai}{}%
+{%
+\gls@defglossaryentry{oai}%
+{%
+name={OAI},%
+sort={OAI},%
+type={acronym},%
+first={Open Archives Initiative (OAI)},%
+firstplural={Open Archives Initiatives(OAIs)},%
+text={OAI},%
+plural={OAIs},%
+description={Open Archives Initiative},%
+descriptionplural={Open Archives Initiative\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Open Archives Initiative},%
+longplural={Open Archives Initiatives},%
+short={OAI},%
+shortplural={OAIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{oaipmh}{}%
+{%
+\gls@defglossaryentry{oaipmh}%
+{%
+name={OAI-PMH},%
+sort={OAI-PMH},%
+type={acronym},%
+first={Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)},%
+firstplural={Open Archives Initiative Protocol for Metadata Harvestings(OAI-PMHs)},%
+text={OAI-PMH},%
+plural={OAI-PMHs},%
+description={Open Archives Initiative Protocol for Metadata Harvesting},%
+descriptionplural={Open Archives Initiative Protocol for Metadata Harvesting\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Open Archives Initiative Protocol for Metadata Harvesting},%
+longplural={Open Archives Initiative Protocol for Metadata Harvestings},%
+short={OAI-PMH},%
+shortplural={OAI-PMHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dms}{}%
+{%
+\gls@defglossaryentry{dms}%
+{%
+name={DMS},%
+sort={DMS},%
+type={acronym},%
+first={Data Management System (DMS)},%
+firstplural={Data Management Systems(DMSs)},%
+text={DMS},%
+plural={DMSs},%
+description={Data Management System},%
+descriptionplural={Data Management System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Data Management System},%
+longplural={Data Management Systems},%
+short={DMS},%
+shortplural={DMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{api}{}%
+{%
+\gls@defglossaryentry{api}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Programming Interface (API)},%
+firstplural={Application Programming Interfaces(APIs)},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{html}{}%
+{%
+\gls@defglossaryentry{html}%
+{%
+name={HTML},%
+sort={HTML},%
+type={acronym},%
+first={HyperText Markup Language (HTML)},%
+firstplural={HyperText Markup Languages(HTMLs)},%
+text={HTML},%
+plural={HTMLs},%
+description={HyperText Markup Language},%
+descriptionplural={HyperText Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Markup Language},%
+longplural={HyperText Markup Languages},%
+short={HTML},%
+shortplural={HTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{css}{}%
+{%
+\gls@defglossaryentry{css}%
+{%
+name={CSS},%
+sort={CSS},%
+type={acronym},%
+first={Cascading Style Sheets (CSS)},%
+firstplural={Cascading Style Sheetss(CSSs)},%
+text={CSS},%
+plural={CSSs},%
+description={Cascading Style Sheets},%
+descriptionplural={Cascading Style Sheets\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cascading Style Sheets},%
+longplural={Cascading Style Sheetss},%
+short={CSS},%
+shortplural={CSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{js}{}%
+{%
+\gls@defglossaryentry{js}%
+{%
+name={JS},%
+sort={JS},%
+type={acronym},%
+first={JavaScript (JS)},%
+firstplural={JavaScripts(JSs)},%
+text={JS},%
+plural={JSs},%
+description={JavaScript},%
+descriptionplural={JavaScript\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript},%
+longplural={JavaScripts},%
+short={JS},%
+shortplural={JSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sql}{}%
+{%
+\gls@defglossaryentry{sql}%
+{%
+name={SQL},%
+sort={SQL},%
+type={acronym},%
+first={Structured Query Language (SQL)},%
+firstplural={Structured Query Languages(SQLs)},%
+text={SQL},%
+plural={SQLs},%
+description={Structured Query Language},%
+descriptionplural={Structured Query Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Structured Query Language},%
+longplural={Structured Query Languages},%
+short={SQL},%
+shortplural={SQLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sparql}{}%
+{%
+\gls@defglossaryentry{sparql}%
+{%
+name={SPARQL},%
+sort={SPARQL},%
+type={acronym},%
+first={SPARQL Protocol and RDF Query Language (SPARQL)},%
+firstplural={SPARQL Protocol and RDF Query Languages(SPARQLs)},%
+text={SPARQL},%
+plural={SPARQLs},%
+description={SPARQL Protocol and RDF Query Language},%
+descriptionplural={SPARQL Protocol and RDF Query Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={SPARQL Protocol and RDF Query Language},%
+longplural={SPARQL Protocol and RDF Query Languages},%
+short={SPARQL},%
+shortplural={SPARQLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dc}{}%
+{%
+\gls@defglossaryentry{dc}%
+{%
+name={DC},%
+sort={DC},%
+type={acronym},%
+first={Dublin Core (DC)},%
+firstplural={Dublin Cores(DCs)},%
+text={DC},%
+plural={DCs},%
+description={Dublin Core},%
+descriptionplural={Dublin Core\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Dublin Core},%
+longplural={Dublin Cores},%
+short={DC},%
+shortplural={DCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{labman}{}%
+{%
+\gls@defglossaryentry{labman}%
+{%
+name={LabMan},%
+sort={LabMan},%
+type={acronym},%
+first={Laboratory Management (LabMan)},%
+firstplural={Laboratory Managements(LabMans)},%
+text={LabMan},%
+plural={LabMans},%
+description={Laboratory Management},%
+descriptionplural={Laboratory Management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Laboratory Management},%
+longplural={Laboratory Managements},%
+short={LabMan},%
+shortplural={LabMans},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cms}{}%
+{%
+\gls@defglossaryentry{cms}%
+{%
+name={CMS},%
+sort={CMS},%
+type={acronym},%
+first={Content Management System (CMS)},%
+firstplural={Content Management Systems(CMSs)},%
+text={CMS},%
+plural={CMSs},%
+description={Content Management System},%
+descriptionplural={Content Management System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Content Management System},%
+longplural={Content Management Systems},%
+short={CMS},%
+shortplural={CMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lod}{}%
+{%
+\gls@defglossaryentry{lod}%
+{%
+name={LOD},%
+sort={LOD},%
+type={acronym},%
+first={Linked Open Data (LOD)},%
+firstplural={Linked Open Datas(LODs)},%
+text={LOD},%
+plural={LODs},%
+description={Linked Open Data},%
+descriptionplural={Linked Open Data\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Linked Open Data},%
+longplural={Linked Open Datas},%
+short={LOD},%
+shortplural={LODs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{csv}{}%
+{%
+\gls@defglossaryentry{csv}%
+{%
+name={CSV},%
+sort={CSV},%
+type={acronym},%
+first={Comma Separated Values (CSV)},%
+firstplural={Comma Separated Valuess(CSVs)},%
+text={CSV},%
+plural={CSVs},%
+description={Comma Separated Values},%
+descriptionplural={Comma Separated Values\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Comma Separated Values},%
+longplural={Comma Separated Valuess},%
+short={CSV},%
+shortplural={CSVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uri}{}%
+{%
+\gls@defglossaryentry{uri}%
+{%
+name={URI},%
+sort={URI},%
+type={acronym},%
+first={Uniform Resource Identifier (URI)},%
+firstplural={Uniform Resource Identifiers(URIs)},%
+text={URI},%
+plural={URIs},%
+description={Uniform Resource Identifier},%
+descriptionplural={Uniform Resource Identifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Uniform Resource Identifier},%
+longplural={Uniform Resource Identifiers},%
+short={URI},%
+shortplural={URIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rdf}{}%
+{%
+\gls@defglossaryentry{rdf}%
+{%
+name={RDF},%
+sort={RDF},%
+type={acronym},%
+first={Resource Description Framework (RDF)},%
+firstplural={Resource Description Frameworks(RDFs)},%
+text={RDF},%
+plural={RDFs},%
+description={Resource Description Framework},%
+descriptionplural={Resource Description Framework\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Resource Description Framework},%
+longplural={Resource Description Frameworks},%
+short={RDF},%
+shortplural={RDFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,0 +1,56 @@
+\BOOKMARK [0][]{chapter*.2}{Índice general}{}% 1
+\BOOKMARK [0][]{chapter*.3}{Índice de figuras}{}% 2
+\BOOKMARK [0][]{chapter*.4}{Índice de tablas}{}% 3
+\BOOKMARK [0][]{chapter*.5}{Índice de algoritmos}{}% 4
+\BOOKMARK [0][]{chapter.1}{Introducción}{}% 5
+\BOOKMARK [1][]{section.1.1}{Presentación del Documento}{chapter.1}% 6
+\BOOKMARK [1][]{section.1.2}{Introducción a LabMan}{chapter.1}% 7
+\BOOKMARK [1][]{section.1.3}{Motivación}{chapter.1}% 8
+\BOOKMARK [0][]{chapter.2}{Objetivos\040del\040proyecto}{}% 9
+\BOOKMARK [1][]{section.2.1}{Definición del proyecto}{chapter.2}% 10
+\BOOKMARK [2][]{subsection.2.1.1}{Objetivos}{section.2.1}% 11
+\BOOKMARK [2][]{subsection.2.1.2}{Alcance\040del\040proyecto}{section.2.1}% 12
+\BOOKMARK [2][]{subsection.2.1.3}{Producto\040final}{section.2.1}% 13
+\BOOKMARK [1][]{section.2.2}{Descripción de realización}{chapter.2}% 14
+\BOOKMARK [2][]{subsection.2.2.1}{Método de desarrollo}{section.2.2}% 15
+\BOOKMARK [2][]{subsection.2.2.2}{Productos\040intermedios}{section.2.2}% 16
+\BOOKMARK [2][]{subsection.2.2.3}{EDT}{section.2.2}% 17
+\BOOKMARK [2][]{subsection.2.2.4}{Tareas\040principales}{section.2.2}% 18
+\BOOKMARK [1][]{section.2.3}{Organización y equipo}{chapter.2}% 19
+\BOOKMARK [2][]{subsection.2.3.1}{Esquema\040organizativo}{section.2.3}% 20
+\BOOKMARK [2][]{subsection.2.3.2}{Plan\040de\040Recursos\040Humanos}{section.2.3}% 21
+\BOOKMARK [1][]{section.2.4}{Condiciones de ejecución}{chapter.2}% 22
+\BOOKMARK [2][]{subsection.2.4.1}{Entorno\040de\040trabajo}{section.2.4}% 23
+\BOOKMARK [2][]{subsection.2.4.2}{Control\040de\040cambios}{section.2.4}% 24
+\BOOKMARK [2][]{subsection.2.4.3}{Recepción de productos}{section.2.4}% 25
+\BOOKMARK [1][]{section.2.5}{Planificación}{chapter.2}% 26
+\BOOKMARK [2][]{subsection.2.5.1}{Diagrama\040de\040precedencias}{section.2.5}% 27
+\BOOKMARK [2][]{subsection.2.5.2}{Plan\040de\040Trabajo}{section.2.5}% 28
+\BOOKMARK [2][]{subsection.2.5.3}{Diagrama\040de\040Gantt}{section.2.5}% 29
+\BOOKMARK [2][]{subsection.2.5.4}{Estimación de cargas de trabajo por perfil}{section.2.5}% 30
+\BOOKMARK [1][]{section.2.6}{Presupuesto}{chapter.2}% 31
+\BOOKMARK [2][]{subsection.2.6.1}{Recursos\040Humanos}{section.2.6}% 32
+\BOOKMARK [2][]{subsection.2.6.2}{Recursos\040Software}{section.2.6}% 33
+\BOOKMARK [2][]{subsection.2.6.3}{Recursos\040Hardware}{section.2.6}% 34
+\BOOKMARK [2][]{subsection.2.6.4}{Total}{section.2.6}% 35
+\BOOKMARK [0][]{chapter.3}{Especificación de Requisitos}{}% 36
+\BOOKMARK [0][]{chapter.4}{Tecnologías utilizadas}{}% 37
+\BOOKMARK [1][]{section.4.1}{Servidor\040MOAI}{chapter.4}% 38
+\BOOKMARK [2][]{subsection.4.1.1}{Razón de uso}{section.4.1}% 39
+\BOOKMARK [1][]{section.4.2}{SQLAlchemy}{chapter.4}% 40
+\BOOKMARK [1][]{section.4.3}{Django}{chapter.4}% 41
+\BOOKMARK [1][]{section.4.4}{JQuery}{chapter.4}% 42
+\BOOKMARK [1][]{section.4.5}{Bootstrap-select}{chapter.4}% 43
+\BOOKMARK [1][]{section.4.6}{Bootstrap\0403\040Datepicker}{chapter.4}% 44
+\BOOKMARK [0][]{chapter.5}{Especificación del Diseño}{}% 45
+\BOOKMARK [0][]{chapter.6}{Consideracones sobre la implementación}{}% 46
+\BOOKMARK [0][]{chapter.7}{Plan\040de\040Pruebas}{}% 47
+\BOOKMARK [0][]{chapter.8}{Manual\040de\040Usuario}{}% 48
+\BOOKMARK [0][]{chapter.9}{Incidencias}{}% 49
+\BOOKMARK [0][]{chapter.10}{Conclusiones y Líneas Futuras}{}% 50
+\BOOKMARK [1][]{section.10.1}{Visión general}{chapter.10}% 51
+\BOOKMARK [1][]{section.10.2}{Conclusiones}{chapter.10}% 52
+\BOOKMARK [1][]{section.10.3}{Líneas Futuras}{chapter.10}% 53
+\BOOKMARK [0][]{chapter*.29}{Bibliografía}{}% 54
+\BOOKMARK [0][]{section*.30}{Acrónimos}{}% 55
+\BOOKMARK [0][]{appendix*.32}{Agradecimientos}{}% 56

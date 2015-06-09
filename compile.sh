@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-biber PFG-Jesus-Sesma
-xelatex -shell-escape PFG-Jesus-Sesma
+makeglossaries PFG-Unai-Alonso
+biber PFG-Unai-Alonso
+xelatex -shell-escape PFG-Unai-Alonso
