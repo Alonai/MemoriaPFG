@@ -14,114 +14,70 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Presentación del Documento}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Introducción a LabMan}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Motivación}{1}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Motivación}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Objetivos del proyecto}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Objetivos del proyecto}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Visión general}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Definición del proyecto}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Definición del proyecto}{3}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Objetivos}{5}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.3}Producto final}{3}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Alcance del proyecto}{5}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.4}Descripción de la realización}{3}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Producto final}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.5}Planificación}{3}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Descripción de realización}{6}{section.2.2}
+\contentsline {section}{\numberline {2.6}Presupuesto}{3}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Método de desarrollo}{6}{subsection.2.2.1}
+\contentsline {chapter}{\numberline {3}Especificación de Requisitos}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Productos intermedios}{7}{subsection.2.2.2}
+\contentsline {section}{\numberline {3.1}Visión general}{5}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}EDT}{7}{subsection.2.2.3}
+\contentsline {section}{\numberline {3.2}Requisitos funcionales}{5}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Tareas principales}{7}{subsection.2.2.4}
+\contentsline {section}{\numberline {3.3}Requisitos no-funcionales}{5}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Análisis de las herramientas a usar:}{7}{subsubsection*.9}
+\contentsline {section}{\numberline {3.4}Criterios de validación}{5}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Integración y modelado de datos:}{9}{subsubsection*.10}
+\contentsline {chapter}{\numberline {4}Especificación del Diseño}{7}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creación parte servidora del sistema:}{9}{subsubsection*.11}
+\contentsline {section}{\numberline {4.1}Visión general}{7}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creación de la aplicación web:}{9}{subsubsection*.12}
+\contentsline {section}{\numberline {4.2}Arquitectura}{7}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validación técnica y de usabilidad:}{9}{subsubsection*.13}
+\contentsline {section}{\numberline {4.3}Diagramas de actividad}{7}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Documentación y despliegue en producción:}{9}{subsubsection*.14}
+\contentsline {section}{\numberline {4.4}Diagrama de clases}{7}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Organización y equipo}{10}{section.2.3}
+\contentsline {section}{\numberline {4.5}Tecnologías utilizadas}{7}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Esquema organizativo}{10}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {5}Consideracones sobre la implementación}{9}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Plan de Recursos Humanos}{10}{subsection.2.3.2}
+\contentsline {section}{\numberline {5.1}Visión general}{9}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Condiciones de ejecución}{11}{section.2.4}
+\contentsline {section}{\numberline {5.2}Reglas de estilo}{9}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Entorno de trabajo}{11}{subsection.2.4.1}
+\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{9}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Control de cambios}{11}{subsection.2.4.2}
+\contentsline {section}{\numberline {5.4}Código y jerarquía de proyecto}{9}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Recepción de productos}{12}{subsection.2.4.3}
+\contentsline {section}{\numberline {5.5}Desarrollo del juego}{9}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Planificación}{12}{section.2.5}
+\contentsline {chapter}{\numberline {6}Plan de Pruebas}{11}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Diagrama de precedencias}{12}{subsection.2.5.1}
+\contentsline {chapter}{\numberline {7}Manual de Usuario}{13}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Plan de Trabajo}{12}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {8}Incidencias}{15}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Diagrama de Gantt}{12}{subsection.2.5.3}
+\contentsline {chapter}{\numberline {9}Conclusiones y Líneas Futuras}{17}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Estimación de cargas de trabajo por perfil}{12}{subsection.2.5.4}
+\contentsline {section}{\numberline {9.1}Visión general}{17}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Presupuesto}{19}{section.2.6}
+\contentsline {section}{\numberline {9.2}Objetivos cumplidos}{17}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Recursos Humanos}{19}{subsection.2.6.1}
+\contentsline {section}{\numberline {9.3}Consideraciones del trabajo realizado}{17}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Recursos Software}{19}{subsection.2.6.2}
+\contentsline {section}{\numberline {9.4}Líneas Futuras}{17}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.3}Recursos Hardware}{19}{subsection.2.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.4}Total}{19}{subsection.2.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Especificación de Requisitos}{21}{chapter.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Tecnologías utilizadas}{23}{chapter.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Servidor MOAI}{23}{section.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Razón de uso}{23}{subsection.4.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}SQLAlchemy}{24}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Django}{24}{section.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}JQuery}{24}{section.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Bootstrap-select}{24}{section.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Bootstrap 3 Datepicker}{24}{section.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Especificación del Diseño}{25}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Consideracones sobre la implementación}{27}{chapter.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Plan de Pruebas}{29}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Manual de Usuario}{31}{chapter.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Incidencias}{33}{chapter.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusiones y Líneas Futuras}{35}{chapter.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Visión general}{35}{section.10.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Conclusiones}{35}{section.10.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Líneas Futuras}{35}{section.10.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{37}{chapter*.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acrónimos}{39}{section*.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Agradecimientos}{41}{appendix*.32}
+\contentsline {chapter}{Agradecimientos}{19}{appendix*.6}

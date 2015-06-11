@@ -1,0 +1,37 @@
+- Introducción
+	- Presentación del documento
+	- Motivación
+- Objetivos del proyecto
+	- Visión general
+	- Definición del proyecto
+	- Producto final
+	- Descripción de la realización
+	- Organización
+	- Condiciones de ejecución
+	- Planificación
+	- Presupuesto
+- Especificación de requisitos
+	- Visión general
+	- Requisitos funcionales
+	- Requisitos no-funcionales
+	- Criterios de validación
+- Especificación del diseño
+	- Visión general
+	- Arquitectura
+	- Diagramas de actividad
+	- Diagrama de clases
+	- Tecnologías utilizadas
+- Consideraciones de la implementación
+	- Visión general
+	- Reglas de estilo
+	- Entorno de desarrollo
+	- 
+	- Desarrollo del juego
+- Plan de pruebas
+- Manual de usuario
+- Incidencias
+- Conclusiones
+	- Visión general
+	- Objetivos cumplidos
+	- Consideraciones del trabajo realizado
+	- Líneas futuras

@@ -1,14 +1,9 @@
-[0] Config.pm:318> INFO - This is Biber 1.8
-[0] Config.pm:321> INFO - Logfile is 'PFG-Unai-Alonso.blg'
-[81] biber:275> INFO - === Tue Jun  9, 2015, 13:47:58
-[81] Biber.pm:333> INFO - Reading 'PFG-Unai-Alonso.bcf'
-[157] Biber.pm:630> INFO - Found 18 citekeys in bib section 0
-[173] Biber.pm:3053> INFO - Processing section 0
-[474] Biber.pm:3190> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[476] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[499] bibtex.pm:808> INFO - Found BibTeX data source 'bibliografia.bib'
-[771] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[771] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
-[771] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[833] bbl.pm:482> INFO - Writing 'PFG-Unai-Alonso.bbl' with encoding 'UTF-8'
-[835] bbl.pm:555> INFO - Output to PFG-Unai-Alonso.bbl
+[1] Config.pm:318> INFO - This is Biber 1.8
+[1] Config.pm:321> INFO - Logfile is 'PFG-Unai-Alonso.blg'
+[81] biber:275> INFO - === Tue Jun  9, 2015, 18:39:29
+[82] Biber.pm:333> INFO - Reading 'PFG-Unai-Alonso.bcf'
+[157] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[157] Utils.pm:169> WARN - The file 'PFG-Unai-Alonso.bcf' does not contain any citations!
+[174] bbl.pm:482> INFO - Writing 'PFG-Unai-Alonso.bbl' with encoding 'UTF-8'
+[174] bbl.pm:555> INFO - Output to PFG-Unai-Alonso.bbl
+[174] Biber.pm:105> INFO - WARNINGS: 1

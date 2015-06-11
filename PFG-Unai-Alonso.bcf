@@ -1964,24 +1964,6 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">joomla</bcf:citekey>
-    <bcf:citekey order="2">wordpress</bcf:citekey>
-    <bcf:citekey order="3">drupal</bcf:citekey>
-    <bcf:citekey order="4">Python</bcf:citekey>
-    <bcf:citekey order="5">Django</bcf:citekey>
-    <bcf:citekey order="6">RDF</bcf:citekey>
-    <bcf:citekey order="7">linkeddata</bcf:citekey>
-    <bcf:citekey order="8">pena_visual_2014</bcf:citekey>
-    <bcf:citekey order="9">DC</bcf:citekey>
-    <bcf:citekey order="10">XML</bcf:citekey>
-    <bcf:citekey order="11">MOAI</bcf:citekey>
-    <bcf:citekey order="12">Infrae</bcf:citekey>
-    <bcf:citekey order="13">HTTPApache</bcf:citekey>
-    <bcf:citekey order="14">Fedora</bcf:citekey>
-    <bcf:citekey order="15">EPrints</bcf:citekey>
-    <bcf:citekey order="16">DSpace</bcf:citekey>
-    <bcf:citekey order="17">SQLite</bcf:citekey>
-    <bcf:citekey order="18">PostgreSQL</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>
