@@ -2,8 +2,110 @@
 
 \section{Visión general}
 
+	En este capítulo se especifican los requisitos que deben ser cumplidos por el proyecto a desarrollar. Para un mejor entendimiento de los mismos, se han dividos en dos bloques:
+
+	\begin{itemize}
+			\item \textbf{Requisitos funcionales:}
+				
+			Funcionamiento que el juego debe proveer.
+			
+			\item \textbf{Requisitos no funcionales:}
+				
+			Requisitos relacionados con la usabilidad, el entorno y el rendimiento.
+	\end{itemize}
+
 \section{Requisitos funcionales}
 
+	Requisitos funcionales que describen el funcionamiento del producto. A continuación se muestran los requisitos del juego:
+
+	\begin{itemize}
+			\item \textbf{RF0}
+				
+			El nivel que constará la demo debe ser generado proceduralmente en cada sesión y debe poblarse de enemigos.
+			
+			\item \textbf{RF1}
+				
+			El juego debe ser capaz de detectar cuando distintas entidades colisionan entre ellas o con el escenario y actuar en consecuencia.
+
+			\item \textbf{RF2}
+				
+			La cámara del juego debe seguir al jugador en los ejes X e Y.
+
+			\item \textbf{RF3}
+				
+			El juego debe detectar las entradas del jugador, comprobar el estado actual del mismo y actuar en consecuencia.
+
+			\item \textbf{RF4}
+				
+			El juego debe detectar cuando se han cumplido las condiciones para fin de partida y terminarla.
+
+			\item \textbf{RF5}
+				
+			Cada enemigo debe tener una inteligencia artificial distinta.
+
+			\item \textbf{RF6}
+				
+			El jugador debe tener a su disposición tres tipos de ataque.
+
+			\item \textbf{RF7}
+				
+			El juego debe contar con una pantalla para mostrar los controles.
+	\end{itemize}
+
 \section{Requisitos no-funcionales}
+	
+	Los requisitos no funcionales describen características requeridas del sistema, el proceso de desarrollo o cualquier otro aspecto que tenga alguna restricción.
+
+	\subsection{Usabilidad}
+
+		Estos requisitos permiten que el juego cumpla las espectativas del usuario final.
+
+		\begin{itemize}
+				\item \textbf{RU0}
+					
+				Durante las partidas el juego debe mostrar en todo momento los datos relevantes al usuario mediante una interfaz gráfica.
+
+				\item \textbf{RU1}
+					
+				La interfaz gráfica debe estar diseñada de forma que no sea molesta para el jugador.
+
+				\item \textbf{RU2}
+					
+				El juego debe controlarse únicamente con el teclado.
+		\end{itemize}
+
+	\subsection{Entorno}
+
+		Estos requisitos definen el entorno de uso del juego.
+
+		\begin{itemize}
+				\item \textbf{RE0}
+					
+				El código del juego debe ser multiplataforma, de forma que pueda compilarse en Windows, Linux y OSX.
+
+				\item \textbf{RE1}
+					
+				La versión final debe incluir las librerías necesarias para el correcto funcionamiento del juego.
+		\end{itemize}
+
+	\subsection{Rendimiento}
+
+		Requisitos relacionados con el tiempo de realización de las tareas de la aplicación, márgenes de error...
+
+		\begin{itemize}
+				\item \textbf{RR0}
+					
+				El juego debe funcionar a un mínimo de 30 FPS en cualquier plataforma.
+
+				\item \textbf{RR1}
+					
+				Durante las partidas, no debe haber errores que provoquen un final inesperado de la aplicación.
+		\end{itemize}
 
 \section{Criterios de validación}
+
+	Los requisitos previamente mencionados están sujetos a procesos de validación antes de la entrega final del proyecto. Para comprobar el cumplimiento de los requisitos el producto final es contrastado con los requisitos iniciales, estudiando los cambios que pudieran surgir. El método de desarrollo está guiado por pruebas, de forma que el cumplimiento exitoso de dichas pruebas validará los distintos requisitos del sistema objetivamente, mientras que si las pruebas no se ejecutan exitosamente indicarán la existencia de requisitos incompletos.
+
+	El grado de descumplimiento del proyecto estará directamente relacionado con el porcentaje de requisitos cumplidos, evaluando el grado de completitud objetivamente.
+
+	De la misma forma, cualquier implementación que mejore la estabilidad o funcionalidad del sistema que no esté reflejado en los requisitos iniciales se considerará una parte extra de la evaluación del proyecto por el director del mismo.
