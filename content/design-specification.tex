@@ -54,7 +54,7 @@
 
 		\begin{figure}[!htp]
 			 \centering
-			 \includegraphics{fig/cpp}
+			 \includegraphics{fig/json}
 			 \caption{Logo de JSON}
 			 \label{fig:json}
 		\end{figure}
@@ -73,3 +73,9 @@
 		\end{figure}
 
 		Se ha decidido utilizar TGUI en el proyecto para agilizar el desarrollo de las interfaces de usuario. Hubiese sido posible crear una implementación propia con los elementos necesarios, pero hubiese consumido recursos que eran de gran valor para otros apartados del proyecto.
+
+	\subsection{JsonCpp}
+
+		JsonCpp es una librería C++ que permite manipular documentos JSON, incluyendo serialización y deserialización a y desde cadenas de texto. También preserva comentarios existentes en los pasos de serialización y deserialización, haciendo el formato conveniente para archivos generados por usuarios.
+
+		De entre las distintas opciones para trabajar con JSON en C++, se ha decantado por esta ya que su integración en el proyecto era muy sencilla, al igual que su uso.

@@ -21,17 +21,84 @@
 
 		Este software ha sido la herramienta principal para el proyecto. Ha sido utilizada para la codificación de todo el proyecto, para el retoque de los archivos JSON y para la generación de los archivos de configuración necesarios. Cualquier editor de texto sencillo podría haber sido utilizado, pero se ha optado por Atom ya que provee características avanzadas para codificar, tales como soporte para distintos lenguajes, que además pueden ser ampliadas mediante módulos gratuitos.
 
-	\subsection{G++}
+	\subsection{GNU Compiler Collection}
+
+		El GNU Compiler Collection es un conjunto de compiladores creados por el proyecto GNU. GCC es software libre y lo distribuye la FSF bajo la licencia general pública GPL.
+
+		Estos compiladores se consideran estándar para los sistemas operativos derivados de UNIX, de código abierto y tambiñen de propietarios, como Mac OS X. GCC requiere el conjunto de aplicaciones conocido como binutils para realizar tareas como identificar archivos objeto u obtener su tamaño para copiarlos, traducirlos o crear listas, enlazarlos, o quitarles símbolos innecesarios.
+
+		Originalmente GCC solo compilaba C, pero posteriormente se extendió para compilar C++, Fortran, Ada y otros.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/gcc}
+			 \caption{Logo de GCC}
+			 \label{fig:gcc}
+		\end{figure}
+
+		Se ha decidido utilizar este compilador ya que, además de ser gratuito, es el estándar para muchas plataformas, de forma que su fiabilidad es muy alta.
 
 	\subsection{Git}
 
-		Git es un software de control de versiones diseñado por Linus Torvalds pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando
+		Git es un software de control de versiones diseñado por Linus Torvalds pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Al principio, Git se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir interfaces de usuario. Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con funcionalidad plena. Hay algunos proyectos de mucha relevancia que ya usan Git, en particular, el grupo de programación del núcleo Linux.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/git}
+			 \caption{Logo de Git}
+			 \label{fig:git}
+		\end{figure}
+
+		Se ha decidido utilizar Git como sistema de control de versiones de entre las muchas opciones disponibles ya que el equipo tenía experiencia previa trabajando con la herramienta. Además, Git ofrece muchas ventajas, es flexible, potente y rápido.
 
 	\subsection{Make}
 
-	\subsection{Darkfunct Editor}
+		Make es una herramienta de gestión de dependencias, típicamente, las que existen entre los archivos que componen código fuente de un programa, para dirigir su recompilación o generación automáticamente. Si bien es cierto que su función bñasica consiste en determinar automáticamente qué partes de un programa requieren ser recompiladas y ejecutar los comandos necesarios para hacerlo, también lo es que Make puede usarse en cualquier escenario en el que se requiera, de alguna forma, actualizar automáticamente un conjunto de archivos a partir de otro, cada vez que éste cambie.
+
+		Make es muy usada en los sistemas operativos tipo Unix/Linux. Por defecto lee las instrucciones para generar el programa u otra acción del ficher Makefile. Las instrucciones escritas en este fichero se llaman dependencias.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/make}
+			 \caption{Logo de Make}
+			 \label{fig:make}
+		\end{figure}
+
+		Make ha sido de gran ayuda para el proyecto ya que, al utilizar la librería SFML, la generación de ejecutables no era directa, eran necesarios dos pasos: compilar y enlazar. En ambos pasos era imprescindible incluir todas las librerías necesarias y especificar unos parámetros concretos. Make ha servido para automatizar estos dos pasos, evitando así múltiples errores.
+
+	\subsection{darkFunction Editor}
+
+		darkFunction Editor es un estudio de gráficos gratuito y de código libre que permite definir matrices gráficas rápidamente y construir animaciones complejas, que pueden ser exportadas como GIF o XML.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/darkF}
+			 \caption{Logo de darkFunction}
+			 \label{fig:darkF}
+		\end{figure}
+
+		Este programa ha sido utilizado para generar archivos XML que contenían las coordenadas de cada fotograma de animación. Además, también ha creado archivos XML que definen las animaciones por fotogramas. Esta herramienta ha sido de un valor incalculable, ya que permitía hacer mediante una interfaz gráfica sencilla lo que a mano suponía una carga de trabajo grandísima.
 
 	\subsection{XML to JSON}
+
+		XML to JSON es una sencilla aplicación web que permite convertir al instante y de forma gratuita archivos XML a JSON y viceversa. Está alojada en una web mantenida por Osys.
+
+		Esta herramienta ha sido utilizada en el proyecto para convertir los archivos XML generados por la aplicación previamente mencionada en archivos JSON, que serían los después utilizados por el producto.
+
+	\subsection{GIMP}
+
+		GIMP es un programa de edición de imágenes digitales en forma de mapa de bits, tanto dibujos como fotografías. Es un programa libre y gratuito. Forma parte del proyecto GNU y está disponible bajo la licencia pública general de GNU. Es el programa de manipulación de gráficos disponible en más sistemas operativos.
+
+		GIMP tiene herramientas que se utilizan para el retoque y edición de imágenes, dibujo de formas libres, cambiar el tamaño, recortar, hacer fotomontajes, convertir a diferentes formatos de imagen, y otras tareas más especializadas. Se pueden también crear imágenes animadas en formato GIF e imágenes animadas en formato MPEG usando un plugin de animación.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/gimp}
+			 \caption{Logo de GIMP}
+			 \label{fig:gimp}
+		\end{figure}
+
+		Este programa se ha utilizado para editar las imágenes que se han utilizado en el juego. Se ha decidido utilizar esta herramienta por ser la mejor de su condición entre todas las opciones gratuitas.
 
 \section{Código y jerarquía de proyecto}
 
