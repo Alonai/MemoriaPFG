@@ -14,8 +14,62 @@
 
 	\subsection{SFML}
 
+		SFML es una librería multiplataforma de desarrollo de software diseñada para proveer una interfaz simple a varios componentes multimedia en ordenadores. Está escrita en C++ con enlaces disponibles para C, D, Java, Python, Ruby, .NET, Go, Rust, OCaml, Euphoria y Nim. Existen también compilaciones experimentales para dispositivos móviles.
+
+		SFML gestiona tanto la creación e interacción de ventanas como de contextos OpenGL. También provee de un módulo grñafico para gráficos acelerados por hardware en 2D el cual incluye representación de texto utilizando FreeType, un módulo de audio que se sirve de OpenAL y un módulo de conexión para comunicación básica por TCP y UDP.
+
+		SFML es un software gratuito y de código libre provisto bajo los términos de la licencia zlib/png. Está disponible para Windows, Linux, OS X y FreeBSD.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/sfml}
+			 \caption{Logo de SFML}
+			 \label{fig:sfml}
+		\end{figure}
+
+		Se ha decidido utilizar SFML en el proyecto ya que uno de los objetivos del mismo es aprender a crear una arquitectura software apropiada para videojuegos, de forma que los motores con editor visual no eran una opción, al abstraer al usuario de ella. A pesar de que la librería de referencia para este tipo de aplicaciones es SDL, se ha decidido usar SFML ya que a diferencia de la primera, la cual está escrita en C, SFML está escrita en C++ y concebida con orientación a objetos. Esto supone una ventaja ya que el proyecto ha sido desarrollado en C++ y el paradigma de programación utilizado ha sido el de la orientación a objetos.
+
 	\subsection{C++}
+
+		C++ es un lenguaje de programación de propósito general. Tiene características de programación imperativa, orientada a objetos y genérica, mientras provee facilidades para la manipulación de memoria a bajo nivel.
+
+		Está diseñado pensando en la programación de sistemas, sistemas embebidos, sistemas con recursos limitados y grandes sistemas, con el rendimiento, la eficiencia y la flexibilidad de uso como sus requisitos de diseño. C++ también ha sido útil en otros muchos contextos, siendo fortalezas clave la infraestructura de software y aplicaciones con recursos limitados, incluyendo aplicaciones de escritorio, servidores, aplicaciones de rendimiento crítico y software de entretenimiento. C++ es un lenguaje compilado, con implementaciones del mismo disponibles en muchas plataformas y provistas por varias organizaciones, incluyendo FSF, LLVM, Microsoft e Intel.
+
+		C++ está estandarizado por ISO, con la última versión estándar ratificada y publicada por ISO en diciembre de 2014 como ISO/IEC 14882:2014 (informalmente conocida como C++14). Muchos otros lenguajes de programación han sido influenciados por C++, entre los que se encuentran C#, Java, y versiones posteriores a 1998 de C.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/cpp}
+			 \caption{Logo de C++}
+			 \label{fig:cpp}
+		\end{figure}
+
+		Se ha decidido utilizar C++ para el desarrollo del proyecto ya que es el lenguaje estándar de la industria, y dado que el producto busca competir, es importante que esté hecho con las mejores herramientas. C++ es en este caso dicha herramienta, por su eficiencia y flexibilidad.
 
 	\subsection{JSON}
 
+		JSON es un formato estándar abierto que usa texto legible por humanos para transmitir objetos de información consistentes en pares atributo-valor. Es principalmente utilizado para transmitir información entre un servidor y una aplicación web como alternativa a XML.
+
+		Aunque originalmente fue derivado del lenguaje de programación Javascript, JSON es un formato de datos independiente del lenguaje. El código necesario para generar y analizar información en JSON está disponible en muchos lenguajes de programación.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/cpp}
+			 \caption{Logo de JSON}
+			 \label{fig:json}
+		\end{figure}
+
+		Se ha decidido utilizar JSON frente a XML porque el equipo disponía de experiencia previa con JSON y no con XML. Ambas tecnologías ofrecen características similares, pero JSON es más simple y por tanto más fácil de mantener.
+
 	\subsection{TGUI}
+
+		TGUI es una librería de GUI multiplataforma en C++ para SFML. Entre sus características más destacables encontramos la facilidad de uso, la portabilidad de código, la posibilidad de modificar interfaces sin necesidad de recompilar, un gestor de texturas externo que evita la recarga de imágenes y está provisto bajo la misma licencia que SFML, zlib/png.
+
+		\begin{figure}[!htp]
+			 \centering
+			 \includegraphics{fig/tgui}
+			 \caption{Logo de TGUI}
+			 \label{fig:tgui}
+		\end{figure}
+
+		Se ha decidido utilizar TGUI en el proyecto para agilizar el desarrollo de las interfaces de usuario. Hubiese sido posible crear una implementación propia con los elementos necesarios, pero hubiese consumido recursos que eran de gran valor para otros apartados del proyecto.
