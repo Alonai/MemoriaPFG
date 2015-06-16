@@ -1,1 +1,55 @@
 \chapter{Plan de Pruebas}
+
+	Durante la realización del proyecto han habido muchas pruebas para garantizar la calidad del código e intentar minimizar al máximo los errores. En este capítulo se explican las pruebas hechas.
+
+	En la siguiente lista se muestran los tipos de prueba que se han hecho:
+
+	\begin{itemize}
+		\item \textbf{Pruebas unitarias:}
+			
+		Descripción de las pruebas unitarias llevadas a cabo en el proyecto.
+
+		\item \textbf{Pruebas de integración:}
+			
+		Descripción de las pruebas de integración llevadas a cabo.
+
+		\item \textbf{Pruebas de hardware:}
+			
+		Descripción de las pruebas de hardware realizadas.
+
+		\item \textbf{Pruebas de usabilidad:}
+			
+		Descripción de las pruebas de usabilidad realizadas.
+	\end{itemize}
+
+\section{Pruebas unitarias}
+
+	A lo largo del proyecto se han realizado muchas pruebas unitarias. Estas consisten en dividir el código a partes mínimas para garantizar que el funcionamiento del mismo es el esperado. La realización de estas pruebas han sido enfocadas a la búsqueda de errores en los siguientes elementos:
+
+	\begin{itemize}
+		\item \textbf{Condiciones booleanas:} verificar el comportamiento del sistema al finalizar y asegurar que las variables evaluadas tienen asignados los valores esperados.
+
+		\item \textbf{Indices de matrices:} verificar que en ningún momento se accede a posiciones fuera del rango de las matrices.
+
+		\item \textbf{Comprobar valores nulos:} comprobar que donde se espera que haya una instancia de una clase verdaderamente la haya, de forma que el valor no sea nulo.
+
+		\item \textbf{Operaciones de conversión:} asegurar que la conversión de un tipo a otro de datos es la apropiada, reforzando el código para que una conversión inadecuada cause un error en la aplicación.
+
+		\item \textbf{Condiciones alternativas:} garantizar que al menos una rama es siempre satisfecha.
+
+		\item \textbf{Iteraciones:} asegurar que las condiciones sean correctas de forma que nunca se generen bucle infinitos.
+
+		\item \textbf{Impresión de secuencia:} utilizada para comprobar si la aplicación ejecuta bucles o condicionales imprimiendo la secuencia en consola.
+	\end{itemize}
+
+\section{Pruebas de integración}
+
+	La realización de estas pruebas consiste en garantizar que el funcionamiento de cada módulo sea correcto. Los módulos han sido probados de distintas maneras para asegurar que siempre se ejecutaban satisfactoriamente. Además, se han hecho pruebas que verifican que las interfaces de comunicación entre distintos módulos son correctas. Se ha prestado especial atención a este apartado para evitar que el error de un módulo pudiera propagarse a toda la aplicación, evitando así fallos en cadena.
+
+\section{Pruebas de hardware}
+
+	Cuando el producto se encontraba en sus etapas finales, se ha procedido a compilar y ejecutar el juego en distintas configuraciones de hardware para comprobar que funcionaba correctamente. Gracias a la colaboración de compañeros y amigos ha habido posibilidad de probar el producto en una gama variada de hardware. En total se ha compilado y ejecutado el juego satisfactoriamente en catorce configuraciones distintas. Además, estas configuraciones disponían de distintos sistemas operativos, entre los que se encuentran Ubuntu, Linux Mint, Windows 7, Windows 8.1 y OS X. Esto demuestra que el código generado por el proyecto es multiplataforma.
+
+\section{Pruebas de usabilidad}
+
+	Una parte fundamental de los juegos es la experiencia de usuario. Para conseguir la mejor posible, se ha contado con la colaboración de distintas personas que han ayudado a calibrar distintos menúes e interfaces gráficas. Las pruebas consistían en sesiones cortas de juego, en las que los usuarios compartía sus observaciones respecto a la interfaz y usabilidad general. Gracias a las opiniones recogidas, se han ajustado las posiciones y los tamaños de los elementos de la interfaz gráfica para acomodarlos a la mayoría de los usuarios. Por otro lado, se han ajustado los menús para ser más intuitivos.
