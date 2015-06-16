@@ -4,37 +4,74 @@
 \BOOKMARK [0][]{chapter*.5}{Índice de algoritmos}{}% 4
 \BOOKMARK [0][]{chapter.1}{Introducción}{}% 5
 \BOOKMARK [1][]{section.1.1}{Presentación del Documento}{chapter.1}% 6
-\BOOKMARK [1][]{section.1.2}{Motivación}{chapter.1}% 7
+\BOOKMARK [1][]{section.1.2}{Estado del arte y motivación}{chapter.1}% 7
 \BOOKMARK [0][]{chapter.2}{Objetivos\040del\040proyecto}{}% 8
 \BOOKMARK [1][]{section.2.1}{Visión general}{chapter.2}% 9
 \BOOKMARK [1][]{section.2.2}{Definición del proyecto}{chapter.2}% 10
-\BOOKMARK [1][]{section.2.3}{Producto\040final}{chapter.2}% 11
-\BOOKMARK [1][]{section.2.4}{Descripción de la realización}{chapter.2}% 12
-\BOOKMARK [1][]{section.2.5}{Planificación}{chapter.2}% 13
-\BOOKMARK [1][]{section.2.6}{Presupuesto}{chapter.2}% 14
-\BOOKMARK [0][]{chapter.3}{Especificación de Requisitos}{}% 15
-\BOOKMARK [1][]{section.3.1}{Visión general}{chapter.3}% 16
-\BOOKMARK [1][]{section.3.2}{Requisitos\040funcionales}{chapter.3}% 17
-\BOOKMARK [1][]{section.3.3}{Requisitos\040no-funcionales}{chapter.3}% 18
-\BOOKMARK [1][]{section.3.4}{Criterios de validación}{chapter.3}% 19
-\BOOKMARK [0][]{chapter.4}{Especificación del Diseño}{}% 20
-\BOOKMARK [1][]{section.4.1}{Visión general}{chapter.4}% 21
-\BOOKMARK [1][]{section.4.2}{Arquitectura}{chapter.4}% 22
-\BOOKMARK [1][]{section.4.3}{Diagramas\040de\040actividad}{chapter.4}% 23
-\BOOKMARK [1][]{section.4.4}{Diagrama\040de\040clases}{chapter.4}% 24
-\BOOKMARK [1][]{section.4.5}{Tecnologías utilizadas}{chapter.4}% 25
-\BOOKMARK [0][]{chapter.5}{Consideracones sobre la implementación}{}% 26
-\BOOKMARK [1][]{section.5.1}{Visión general}{chapter.5}% 27
-\BOOKMARK [1][]{section.5.2}{Reglas\040de\040estilo}{chapter.5}% 28
-\BOOKMARK [1][]{section.5.3}{Entorno\040de\040desarrollo}{chapter.5}% 29
-\BOOKMARK [1][]{section.5.4}{Código y jerarquía de proyecto}{chapter.5}% 30
-\BOOKMARK [1][]{section.5.5}{Desarrollo\040del\040juego}{chapter.5}% 31
-\BOOKMARK [0][]{chapter.6}{Plan\040de\040Pruebas}{}% 32
-\BOOKMARK [0][]{chapter.7}{Manual\040de\040Usuario}{}% 33
-\BOOKMARK [0][]{chapter.8}{Incidencias}{}% 34
-\BOOKMARK [0][]{chapter.9}{Conclusiones y Líneas Futuras}{}% 35
-\BOOKMARK [1][]{section.9.1}{Visión general}{chapter.9}% 36
-\BOOKMARK [1][]{section.9.2}{Objetivos\040cumplidos}{chapter.9}% 37
-\BOOKMARK [1][]{section.9.3}{Consideraciones\040del\040trabajo\040realizado}{chapter.9}% 38
-\BOOKMARK [1][]{section.9.4}{Líneas Futuras}{chapter.9}% 39
-\BOOKMARK [0][]{appendix*.6}{Agradecimientos}{}% 40
+\BOOKMARK [2][]{subsection.2.2.1}{Objetivos}{section.2.2}% 11
+\BOOKMARK [2][]{subsection.2.2.2}{Alcance}{section.2.2}% 12
+\BOOKMARK [1][]{section.2.3}{Producto\040final}{chapter.2}% 13
+\BOOKMARK [1][]{section.2.4}{Descripción de la realización}{chapter.2}% 14
+\BOOKMARK [2][]{subsection.2.4.1}{Método de desarrollo}{section.2.4}% 15
+\BOOKMARK [2][]{subsection.2.4.2}{Tareas\040principales:}{section.2.4}% 16
+\BOOKMARK [2][]{subsection.2.4.3}{Productos\040intermedios:}{section.2.4}% 17
+\BOOKMARK [1][]{section.2.5}{Organización}{chapter.2}% 18
+\BOOKMARK [2][]{subsection.2.5.1}{Esquema\040organizativo}{section.2.5}% 19
+\BOOKMARK [2][]{subsection.2.5.2}{Plan\040de\040recursos\040humanos}{section.2.5}% 20
+\BOOKMARK [1][]{section.2.6}{Condiciones de ejecución}{chapter.2}% 21
+\BOOKMARK [2][]{subsection.2.6.1}{Entorno\040de\040trabajo}{section.2.6}% 22
+\BOOKMARK [2][]{subsection.2.6.2}{Diálogo durante el proyecto}{section.2.6}% 23
+\BOOKMARK [2][]{subsection.2.6.3}{Recepción de productos}{section.2.6}% 24
+\BOOKMARK [2][]{subsection.2.6.4}{Control\040de\040cambios}{section.2.6}% 25
+\BOOKMARK [1][]{section.2.7}{Planificación}{chapter.2}% 26
+\BOOKMARK [2][]{subsection.2.7.1}{Plan\040de\040trabajo}{section.2.7}% 27
+\BOOKMARK [2][]{subsection.2.7.2}{Diagrama\040de\040Gantt}{section.2.7}% 28
+\BOOKMARK [2][]{subsection.2.7.3}{Diagrama\040de\040Red}{section.2.7}% 29
+\BOOKMARK [1][]{section.2.8}{Presupuesto}{chapter.2}% 30
+\BOOKMARK [2][]{subsection.2.8.1}{Software}{section.2.8}% 31
+\BOOKMARK [2][]{subsection.2.8.2}{Hardware}{section.2.8}% 32
+\BOOKMARK [2][]{subsection.2.8.3}{Recursos\040humanos}{section.2.8}% 33
+\BOOKMARK [2][]{subsection.2.8.4}{Total}{section.2.8}% 34
+\BOOKMARK [0][]{chapter.3}{Especificación de Requisitos}{}% 35
+\BOOKMARK [1][]{section.3.1}{Visión general}{chapter.3}% 36
+\BOOKMARK [1][]{section.3.2}{Requisitos\040funcionales}{chapter.3}% 37
+\BOOKMARK [1][]{section.3.3}{Requisitos\040no-funcionales}{chapter.3}% 38
+\BOOKMARK [2][]{subsection.3.3.1}{Usabilidad}{section.3.3}% 39
+\BOOKMARK [2][]{subsection.3.3.2}{Entorno}{section.3.3}% 40
+\BOOKMARK [2][]{subsection.3.3.3}{Rendimiento}{section.3.3}% 41
+\BOOKMARK [1][]{section.3.4}{Criterios de validación}{chapter.3}% 42
+\BOOKMARK [0][]{chapter.4}{Especificación del Diseño}{}% 43
+\BOOKMARK [1][]{section.4.1}{Visión general}{chapter.4}% 44
+\BOOKMARK [1][]{section.4.2}{Arquitectura}{chapter.4}% 45
+\BOOKMARK [1][]{section.4.3}{Diagramas\040de\040actividad}{chapter.4}% 46
+\BOOKMARK [1][]{section.4.4}{Diagrama\040de\040clases}{chapter.4}% 47
+\BOOKMARK [1][]{section.4.5}{Tecnologías utilizadas}{chapter.4}% 48
+\BOOKMARK [2][]{subsection.4.5.1}{sfml}{section.4.5}% 49
+\BOOKMARK [2][]{subsection.4.5.2}{C++}{section.4.5}% 50
+\BOOKMARK [2][]{subsection.4.5.3}{json}{section.4.5}% 51
+\BOOKMARK [2][]{subsection.4.5.4}{tgui}{section.4.5}% 52
+\BOOKMARK [2][]{subsection.4.5.5}{JsonCpp}{section.4.5}% 53
+\BOOKMARK [0][]{chapter.5}{Consideraciones sobre la implementación}{}% 54
+\BOOKMARK [1][]{section.5.1}{Visión general}{chapter.5}% 55
+\BOOKMARK [1][]{section.5.2}{Reglas\040de\040estilo}{chapter.5}% 56
+\BOOKMARK [1][]{section.5.3}{Entorno\040de\040desarrollo}{chapter.5}% 57
+\BOOKMARK [2][]{subsection.5.3.1}{Atom}{section.5.3}% 58
+\BOOKMARK [2][]{subsection.5.3.2}{gcc}{section.5.3}% 59
+\BOOKMARK [2][]{subsection.5.3.3}{Git}{section.5.3}% 60
+\BOOKMARK [2][]{subsection.5.3.4}{Make}{section.5.3}% 61
+\BOOKMARK [2][]{subsection.5.3.5}{darkFunction\040Editor}{section.5.3}% 62
+\BOOKMARK [2][]{subsection.5.3.6}{xml\040to\040json}{section.5.3}% 63
+\BOOKMARK [2][]{subsection.5.3.7}{gimp}{section.5.3}% 64
+\BOOKMARK [1][]{section.5.4}{Código y jerarquía de proyecto}{chapter.5}% 65
+\BOOKMARK [1][]{section.5.5}{Desarrollo\040del\040juego}{chapter.5}% 66
+\BOOKMARK [0][]{chapter.6}{Plan\040de\040Pruebas}{}% 67
+\BOOKMARK [0][]{chapter.7}{Manual\040de\040Usuario}{}% 68
+\BOOKMARK [0][]{chapter.8}{Incidencias}{}% 69
+\BOOKMARK [1][]{section.8.1}{Conversión de XML a JSON}{chapter.8}% 70
+\BOOKMARK [0][]{chapter.9}{Conclusiones y Líneas Futuras}{}% 71
+\BOOKMARK [1][]{section.9.1}{Visión general}{chapter.9}% 72
+\BOOKMARK [1][]{section.9.2}{Objetivos\040cumplidos}{chapter.9}% 73
+\BOOKMARK [1][]{section.9.3}{Consideraciones\040del\040trabajo\040realizado}{chapter.9}% 74
+\BOOKMARK [1][]{section.9.4}{Líneas Futuras}{chapter.9}% 75
+\BOOKMARK [0][]{section*.40}{Acrónimos}{}% 76
+\BOOKMARK [0][]{appendix*.42}{Agradecimientos}{}% 77

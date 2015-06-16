@@ -4,17 +4,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\'Indice general}{\es@scroman {v}}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.3}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {ix}}{chapter*.4}
+\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {xi}}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\'Indice de algoritmos}{\es@scroman {xi}}{chapter*.5}
+\contentsline {chapter}{\'Indice de algoritmos}{\es@scroman {xiii}}{chapter*.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Presentación del Documento}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Motivación}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Estado del arte y motivación}{1}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Motores de videojuegos}{2}{subsubsection*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Motivación}{2}{subsubsection*.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Objetivos del proyecto}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -22,62 +26,148 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Definición del proyecto}{3}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Producto final}{3}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.1}Objetivos}{3}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Descripción de la realización}{3}{section.2.4}
+\contentsline {subsection}{\numberline {2.2.2}Alcance}{4}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Planificación}{3}{section.2.5}
+\contentsline {section}{\numberline {2.3}Producto final}{4}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Presupuesto}{3}{section.2.6}
+\contentsline {section}{\numberline {2.4}Descripción de la realización}{4}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Especificación de Requisitos}{5}{chapter.3}
+\contentsline {subsection}{\numberline {2.4.1}Método de desarrollo}{4}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Visión general}{5}{section.3.1}
+\contentsline {subsection}{\numberline {2.4.2}Tareas principales:}{5}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Requisitos funcionales}{5}{section.3.2}
+\contentsline {subsubsection}{Lanzamiento del proyecto}{5}{subsubsection*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Requisitos no-funcionales}{5}{section.3.3}
+\contentsline {subsubsection}{Análisis de herramientas y técnicas}{5}{subsubsection*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Criterios de validación}{5}{section.3.4}
+\contentsline {subsubsection}{Diseño del juego}{5}{subsubsection*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Especificación del Diseño}{7}{chapter.4}
+\contentsline {subsubsection}{Desarrollo del software}{6}{subsubsection*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Visión general}{7}{section.4.1}
+\contentsline {subsubsection}{Validación técnica y de usabilidad:}{6}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Arquitectura}{7}{section.4.2}
+\contentsline {subsubsection}{Distribución y cierre del proyecto}{6}{subsubsection*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Diagramas de actividad}{7}{section.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Productos intermedios:}{6}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Diagrama de clases}{7}{section.4.4}
+\contentsline {section}{\numberline {2.5}Organización}{6}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Tecnologías utilizadas}{7}{section.4.5}
+\contentsline {subsection}{\numberline {2.5.1}Esquema organizativo}{6}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Consideracones sobre la implementación}{9}{chapter.5}
+\contentsline {subsection}{\numberline {2.5.2}Plan de recursos humanos}{7}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Visión general}{9}{section.5.1}
+\contentsline {section}{\numberline {2.6}Condiciones de ejecución}{7}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Reglas de estilo}{9}{section.5.2}
+\contentsline {subsection}{\numberline {2.6.1}Entorno de trabajo}{7}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{9}{section.5.3}
+\contentsline {subsection}{\numberline {2.6.2}Diálogo durante el proyecto}{8}{subsection.2.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Código y jerarquía de proyecto}{9}{section.5.4}
+\contentsline {subsection}{\numberline {2.6.3}Recepción de productos}{8}{subsection.2.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Desarrollo del juego}{9}{section.5.5}
+\contentsline {subsection}{\numberline {2.6.4}Control de cambios}{8}{subsection.2.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Plan de Pruebas}{11}{chapter.6}
+\contentsline {section}{\numberline {2.7}Planificación}{8}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Manual de Usuario}{13}{chapter.7}
+\contentsline {subsection}{\numberline {2.7.1}Plan de trabajo}{8}{subsection.2.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Incidencias}{15}{chapter.8}
+\contentsline {subsection}{\numberline {2.7.2}Diagrama de Gantt}{17}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusiones y Líneas Futuras}{17}{chapter.9}
+\contentsline {subsection}{\numberline {2.7.3}Diagrama de Red}{19}{subsection.2.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Visión general}{17}{section.9.1}
+\contentsline {section}{\numberline {2.8}Presupuesto}{24}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Objetivos cumplidos}{17}{section.9.2}
+\contentsline {subsection}{\numberline {2.8.1}Software}{24}{subsection.2.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Consideraciones del trabajo realizado}{17}{section.9.3}
+\contentsline {subsection}{\numberline {2.8.2}Hardware}{24}{subsection.2.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Líneas Futuras}{17}{section.9.4}
+\contentsline {subsection}{\numberline {2.8.3}Recursos humanos}{24}{subsection.2.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Agradecimientos}{19}{appendix*.6}
+\contentsline {subsection}{\numberline {2.8.4}Total}{24}{subsection.2.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Especificación de Requisitos}{25}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Visión general}{25}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Requisitos funcionales}{25}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Requisitos no-funcionales}{26}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Usabilidad}{26}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Entorno}{26}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Rendimiento}{26}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Criterios de validación}{26}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Especificación del Diseño}{29}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Visión general}{29}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Arquitectura}{29}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Diagramas de actividad}{29}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Diagrama de clases}{29}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Tecnologías utilizadas}{29}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}\acrshort {sfml}}{29}{subsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}C++}{30}{subsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}\acrshort {json}}{30}{subsection.4.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}\acrshort {tgui}}{33}{subsection.4.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.5}JsonCpp}{33}{subsection.4.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Consideraciones sobre la implementación}{35}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Visión general}{35}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Reglas de estilo}{35}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{35}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Atom}{35}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}\acrlong {gcc}}{35}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Git}{38}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.4}Make}{38}{subsection.5.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.5}darkFunction Editor}{39}{subsection.5.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.6}\acrshort {xml} to \acrshort {json}}{39}{subsection.5.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.7}\acrshort {gimp}}{39}{subsection.5.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Código y jerarquía de proyecto}{43}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Desarrollo del juego}{43}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Plan de Pruebas}{45}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Manual de Usuario}{47}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Incidencias}{49}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Conversión de XML a JSON}{49}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusiones y Líneas Futuras}{51}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Visión general}{51}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Objetivos cumplidos}{51}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Consideraciones del trabajo realizado}{51}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Líneas Futuras}{51}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acrónimos}{53}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Agradecimientos}{55}{appendix*.42}
