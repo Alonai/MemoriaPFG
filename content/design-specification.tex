@@ -12,30 +12,30 @@
 
 	En este capítulo se describirán las tecnologías utilizadas para el desempeño del proyecto. Además, se dará una breve explicación de por qué han sido utilizadas y qué beneficios aportan al proyecto.
 
-	\subsection{SFML}
+	\subsection{\acrshort{sfml}}
 
-		SFML es una librería multiplataforma de desarrollo de software diseñada para proveer una interfaz simple a varios componentes multimedia en ordenadores. Está escrita en C++ con enlaces disponibles para C, D, Java, Python, Ruby, .NET, Go, Rust, OCaml, Euphoria y Nim. Existen también compilaciones experimentales para dispositivos móviles.
+		\acrfull{sfml} es una librería multiplataforma de desarrollo de software diseñada para proveer una interfaz simple a varios componentes multimedia en ordenadores. Está escrita en C++ con enlaces disponibles para C, D, Java, Python, Ruby, .NET, Go, Rust, OCaml, Euphoria y Nim. Existen también compilaciones experimentales para dispositivos móviles.
 
-		SFML gestiona tanto la creación e interacción de ventanas como de contextos OpenGL. También provee de un módulo grñafico para gráficos acelerados por hardware en 2D el cual incluye representación de texto utilizando FreeType, un módulo de audio que se sirve de OpenAL y un módulo de conexión para comunicación básica por TCP y UDP.
+		\acrshort{sfml} gestiona tanto la creación e interacción de ventanas como de contextos \acrshort{opengl}. También provee de un módulo grñafico para gráficos acelerados por hardware en 2D el cual incluye representación de texto utilizando FreeType, un módulo de audio que se sirve de \acrshort{openal} y un módulo de conexión para comunicación básica por \acrshort{tcp} y \acrshort{udp}.
 
-		SFML es un software gratuito y de código libre provisto bajo los términos de la licencia zlib/png. Está disponible para Windows, Linux, OS X y FreeBSD.
+		\acrshort{sfml} es un software gratuito y de código libre provisto bajo los términos de la licencia zlib/png. Está disponible para Windows, Linux, OS X y FreeBSD.
 
 		\begin{figure}[!htp]
 			 \centering
 			 \includegraphics{fig/sfml}
-			 \caption{Logo de SFML}
+			 \caption{Logo de \acrshort{sfml}}
 			 \label{fig:sfml}
 		\end{figure}
 
-		Se ha decidido utilizar SFML en el proyecto ya que uno de los objetivos del mismo es aprender a crear una arquitectura software apropiada para videojuegos, de forma que los motores con editor visual no eran una opción, al abstraer al usuario de ella. A pesar de que la librería de referencia para este tipo de aplicaciones es SDL, se ha decidido usar SFML ya que a diferencia de la primera, la cual está escrita en C, SFML está escrita en C++ y concebida con orientación a objetos. Esto supone una ventaja ya que el proyecto ha sido desarrollado en C++ y el paradigma de programación utilizado ha sido el de la orientación a objetos.
+		Se ha decidido utilizar \acrshort{sfml} en el proyecto ya que uno de los objetivos del mismo es aprender a crear una arquitectura software apropiada para videojuegos, de forma que los motores con editor visual no eran una opción, al abstraer al usuario de ella. A pesar de que la librería de referencia para este tipo de aplicaciones es \acrshort{sdl}, se ha decidido usar \acrshort{sfml} ya que a diferencia de la primera, la cual está escrita en C, \acrshort{sfml} está escrita en C++ y concebida con orientación a objetos. Esto supone una ventaja ya que el proyecto ha sido desarrollado en C++ y el paradigma de programación utilizado ha sido el de la orientación a objetos.
 
 	\subsection{C++}
 
 		C++ es un lenguaje de programación de propósito general. Tiene características de programación imperativa, orientada a objetos y genérica, mientras provee facilidades para la manipulación de memoria a bajo nivel.
 
-		Está diseñado pensando en la programación de sistemas, sistemas embebidos, sistemas con recursos limitados y grandes sistemas, con el rendimiento, la eficiencia y la flexibilidad de uso como sus requisitos de diseño. C++ también ha sido útil en otros muchos contextos, siendo fortalezas clave la infraestructura de software y aplicaciones con recursos limitados, incluyendo aplicaciones de escritorio, servidores, aplicaciones de rendimiento crítico y software de entretenimiento. C++ es un lenguaje compilado, con implementaciones del mismo disponibles en muchas plataformas y provistas por varias organizaciones, incluyendo FSF, LLVM, Microsoft e Intel.
+		Está diseñado pensando en la programación de sistemas, sistemas embebidos, sistemas con recursos limitados y grandes sistemas, con el rendimiento, la eficiencia y la flexibilidad de uso como sus requisitos de diseño. C++ también ha sido útil en otros muchos contextos, siendo fortalezas clave la infraestructura de software y aplicaciones con recursos limitados, incluyendo aplicaciones de escritorio, servidores, aplicaciones de rendimiento crítico y software de entretenimiento. C++ es un lenguaje compilado, con implementaciones del mismo disponibles en muchas plataformas y provistas por varias organizaciones, incluyendo \acrshort{fsf}, \acrshort{llvm}, Microsoft e Intel.
 
-		C++ está estandarizado por ISO, con la última versión estándar ratificada y publicada por ISO en diciembre de 2014 como ISO/IEC 14882:2014 (informalmente conocida como C++14). Muchos otros lenguajes de programación han sido influenciados por C++, entre los que se encuentran C#, Java, y versiones posteriores a 1998 de C.
+		C++ está estandarizado por \acrshort{iso}, con la última versión estándar ratificada y publicada por \acrshort{sfml} en diciembre de 2014 como \acrshort{iso}/\acrshort{iec} 14882:2014 (informalmente conocida como C++14). Muchos otros lenguajes de programación han sido influenciados por C++, entre los que se encuentran C#, Java, y versiones posteriores a 1998 de C.
 
 		\begin{figure}[!htp]
 			 \centering
@@ -46,36 +46,36 @@
 
 		Se ha decidido utilizar C++ para el desarrollo del proyecto ya que es el lenguaje estándar de la industria, y dado que el producto busca competir, es importante que esté hecho con las mejores herramientas. C++ es en este caso dicha herramienta, por su eficiencia y flexibilidad.
 
-	\subsection{JSON}
+	\subsection{\acrshort{json}}
 
-		JSON es un formato estándar abierto que usa texto legible por humanos para transmitir objetos de información consistentes en pares atributo-valor. Es principalmente utilizado para transmitir información entre un servidor y una aplicación web como alternativa a XML.
+		\acrfull{json} es un formato estándar abierto que usa texto legible por humanos para transmitir objetos de información consistentes en pares atributo-valor. Es principalmente utilizado para transmitir información entre un servidor y una aplicación web como alternativa a \acrshort{xml}.
 
-		Aunque originalmente fue derivado del lenguaje de programación Javascript, JSON es un formato de datos independiente del lenguaje. El código necesario para generar y analizar información en JSON está disponible en muchos lenguajes de programación.
+		Aunque originalmente fue derivado del lenguaje de programación Javascript, \acrshort{json} es un formato de datos independiente del lenguaje. El código necesario para generar y analizar información en \acrshort{json} está disponible en muchos lenguajes de programación.
 
 		\begin{figure}[!htp]
 			 \centering
 			 \includegraphics{fig/json}
-			 \caption{Logo de JSON}
+			 \caption{Logo de \acrshort{json}}
 			 \label{fig:json}
 		\end{figure}
 
-		Se ha decidido utilizar JSON frente a XML porque el equipo disponía de experiencia previa con JSON y no con XML. Ambas tecnologías ofrecen características similares, pero JSON es más simple y por tanto más fácil de mantener.
+		Se ha decidido utilizar \acrshort{json} frente a \acrshort{xml} porque el equipo disponía de experiencia previa con \acrshort{json} y no con \acrshort{xml}. Ambas tecnologías ofrecen características similares, pero \acrshort{json} es más simple y por tanto más fácil de mantener.
 
-	\subsection{TGUI}
+	\subsection{\acrshort{tgui}}
 
-		TGUI es una librería de GUI multiplataforma en C++ para SFML. Entre sus características más destacables encontramos la facilidad de uso, la portabilidad de código, la posibilidad de modificar interfaces sin necesidad de recompilar, un gestor de texturas externo que evita la recarga de imágenes y está provisto bajo la misma licencia que SFML, zlib/png.
+		\acrfull{tgui} es una librería de GUI multiplataforma en C++ para \acrshort{sfml}. Entre sus características más destacables encontramos la facilidad de uso, la portabilidad de código, la posibilidad de modificar interfaces sin necesidad de recompilar, un gestor de texturas externo que evita la recarga de imágenes y está provisto bajo la misma licencia que \acrshort{sfml}, zlib/png.
 
 		\begin{figure}[!htp]
 			 \centering
 			 \includegraphics{fig/tgui}
-			 \caption{Logo de TGUI}
+			 \caption{Logo de \acrshort{tgui}}
 			 \label{fig:tgui}
 		\end{figure}
 
-		Se ha decidido utilizar TGUI en el proyecto para agilizar el desarrollo de las interfaces de usuario. Hubiese sido posible crear una implementación propia con los elementos necesarios, pero hubiese consumido recursos que eran de gran valor para otros apartados del proyecto.
+		Se ha decidido utilizar \acrshort{tgui} en el proyecto para agilizar el desarrollo de las interfaces de usuario. Hubiese sido posible crear una implementación propia con los elementos necesarios, pero hubiese consumido recursos que eran de gran valor para otros apartados del proyecto.
 
 	\subsection{JsonCpp}
 
-		JsonCpp es una librería C++ que permite manipular documentos JSON, incluyendo serialización y deserialización a y desde cadenas de texto. También preserva comentarios existentes en los pasos de serialización y deserialización, haciendo el formato conveniente para archivos generados por usuarios.
+		JsonCpp es una librería C++ que permite manipular documentos \acrshort{json}, incluyendo serialización y deserialización a y desde cadenas de texto. También preserva comentarios existentes en los pasos de serialización y deserialización, haciendo el formato conveniente para archivos generados por usuarios.
 
-		De entre las distintas opciones para trabajar con JSON en C++, se ha decantado por esta ya que su integración en el proyecto era muy sencilla, al igual que su uso.
+		De entre las distintas opciones para trabajar con \acrshort{json} en C++, se ha decantado por esta ya que su integración en el proyecto era muy sencilla, al igual que su uso.
