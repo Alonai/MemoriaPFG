@@ -191,9 +191,11 @@
 			\end{figure}
 
 			\begin{itemize}
-				\item Comité de dirección 
+				\item \textbf{Comité de dirección}
+
 				Su función principal es asesorar el proyecto y la toma de decisiones. Formado por el jefe de proyecto.
-				\item Equipo de trabajo
+				\item \textbf{Equipo de trabajo}
+
 				El órgano encargado de diseñar, desarrollar y testear el contenido del proyecto en función de las diferentes fases estipuladas. Formado por el programador, el diseñador y el tester.
 			\end{itemize}
 
@@ -204,11 +206,11 @@
 			El equipo de trabajo estará formado por los siguientes perfiles directamente relacionados con las diferentes áreas de competencias que abordan el proyecto:
 
 			\begin{itemize}
-				\item Jefe de proyecto:
+				\item \textbf{Jefe de proyecto:}
 				Sus funciones son realizar las actividades de organización, coordinación y seguimiento del proyecto. Por otro lado, deberá encargarse del diseño del juego. Con un jefe de proyecto es suficiente. Para el perfil será necesario alguien con experiencia en comunicación interpersonal, liderazgo y solución de problemas.
-				\item Programador:
+				\item \textbf{Programador:}
 				Encargado de diseñar e implementar el software en base al diseño del 	juego. Será necesario conocimiento de ingeniería del software para llevar a cabo las tareas asignadas a este perfil.
-				\item Tester:
+				\item \textbf{Tester:}
 				Encargado de probar el producto y reportar errores y sugerir mejoras. 	Para hacer las 	pruebas de fase beta será suficiente con un tester. 	Sin embargo, para las prueba de 	experiencia de usuario sería 	conveniente contar con el mayor número de personas 	posibles. El tester debe ser tener imaginación y ser creativo para llevar al juego a situaciones límite y encontrar el mayor número de errores posible.
 			\end{itemize}
 
@@ -221,12 +223,12 @@
 			Los medios informáticos para la ejecución corren a cargo del trabajador. Los medios de los que se disponen actualmente y se usarán son los siguientes: 
 
 			\begin{itemize}
-				\item Hardware
+				\item \textbf{Hardware}
 				\begin{itemize}
 					\item Ordenador de sobremesa completo con monitor secundario
 					\item Ordenador portátil
 				\end{itemize}
-				\item Software
+				\item \textbf{Software}
 				\begin{itemize}
 					\item Todo el software que se use será gratuito, así que este apartado no supondrá un problema.
 				\end{itemize}
@@ -356,46 +358,61 @@
 
 	\section{Presupuesto}
 
+		En esta sección se detalla el coste planificado del proyecto, calculando primero los costes individuales de recursos hardware, software y humanos. Para terminar, se calcula el coste total del proyecto sumando los tres costes mencionados.
+
 		\subsection{Software}
 
 			Todas las herramientas utilizadas para la realización del proyecto han sido de código abierto o gratuitas, de forma que el coste derivado de la adquisición de productos o servicios software es nulo.
 
 		\subsection{Hardware}
 
-			\begin{center}
-				\captionof{table}{Presupuesto: Hardware}
-				\begin{tabular}{| l | r | r | r |}
-					\hline
-					Nombre				&	Precio(\euro)	&	Unidades	&	Importe total(\euro)	\\	\hline
-					Ordenador de sobremesa			& 	1500			&	1 			&	1500					\\	\hline
-					Ordenador portátil	&	700				&	1			&	700						\\
-					\hline
-				\end{tabular}
-			\end{center}
+			En la tabla \ref{tab:budget-hardware} se detalla el gasto derivado de los dispositivos hardware necesarios para el proyecto.
+
+			\begin{table}[htp]
+				\centering
+				\caption{Presupuesto de Hardware}\label{tab:budget-hardware}
+				\begin{tabular}{cccc}
+					\toprule
+			    	\textbf{Nombre} & \emph{Precio(\euro)} & \emph{Unidades} & \emph{Importe total(\euro)}\\
+			    	\midrule
+			    	Ordenador de sobremesa			& 	1.500,00			&	1 			&	1.500,00					\\
+			    	Ordenador portátil				&	700,00				&	1			&	700,00						\\
+			    	\bottomrule
+			    \end{tabular}
+			\end{table}
 
 		\subsection{Recursos humanos}
 
-			\begin{center}
-				\captionof{table}{Presupuesto: Recursos Humanos}
-				\begin{tabular}{| l | r | r | r |}
-					\hline
-					Rol					&	Precio/hora(\euro/h)	&	Carga de trabajo(h)	&	Importe total(\euro)	\\	\hline
-					Jefe de proyecto	& 	30						&	54 					& 	1620,00				\\	\hline
-					Programador			&	25						&	321					&	8025,00			\\	\hline
-					Tester			&	15						&	90					&	1350,00				\\	\hline
-				\end{tabular}
-			\end{center}
+			En la tabla \ref{tab:budget-human} se detallan los honorarios por cada uno de los roles, en función de las horas trabajadas.
+
+			\begin{table}[htp]
+				\centering
+				\caption{Presupuesto de Recursos Humanos}\label{tab:budget-human}
+				\begin{tabular}{cccc}
+					\toprule
+			    	\textbf{Rol} & \emph{Precio/hora(\euro/h)} & \emph{Carga de trabajo(h)} & \emph{Importe total(\euro)}\\
+			    	\midrule
+			    	Jefe de proyecto				&	30,00			&	54 					& 	1.620,00\\
+					Programador						&	25,00			&	321					&	8.025,00\\
+					Tester							&	15,00			&	90					&	1.350,00\\
+			    	\bottomrule
+			    \end{tabular}
+			\end{table}
 
 		\subsection{Total}
 
-			\begin{center}
-				\captionof{table}{Presupuesto: Total}
-				\begin{tabular}{| l | r |}
-					\hline
-					Tipo				&	Total			\\	\hline
-					Recursos Humanos	& 	10995		\\	\hline
-					Recursos Hardware	&	2200		\\	\hline
-					\textbf{Total}		&	\textbf{13195}	\\
-					\hline
-				\end{tabular}
-			\end{center}
+			Finalmente, en la tabla \ref{tab:total-budget} se detalla el presupuesto total del proyecto.
+
+			\begin{table}[htp]
+				\centering
+				\caption{Presupuesto total}\label{tab:total-budget}
+				\begin{tabular}{cc}
+					\toprule
+			    	\textbf{Tipo} 		& 	\emph{Total}\\
+			    	\midrule
+			    	Recursos Humanos	& 			10.995,00\\
+					Recursos Hardware	&			2.200,00\\
+					\textbf{Total}		&	\textbf{13.195,0}\\
+			    	\bottomrule
+			    \end{tabular}
+			\end{table}
