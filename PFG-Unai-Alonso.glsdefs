@@ -568,3 +568,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{rpg}{}%
+{%
+\gls@defglossaryentry{rpg}%
+{%
+name={RPG},%
+sort={RPG},%
+type={acronym},%
+first={Role Playing Game (RPG)},%
+firstplural={Role Playing Games(RPGs)},%
+text={RPG},%
+plural={RPGs},%
+description={Role Playing Game},%
+descriptionplural={Role Playing Game\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Role Playing Game},%
+longplural={Role Playing Games},%
+short={RPG},%
+shortplural={RPGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

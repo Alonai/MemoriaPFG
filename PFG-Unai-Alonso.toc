@@ -118,56 +118,66 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}C++}{30}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}\acrshort {json}}{30}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}\acrshort {json}}{31}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}\acrshort {tgui}}{33}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.4}\acrshort {tgui}}{32}{subsection.4.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}JsonCpp}{33}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.5}JsonCpp}{32}{subsection.4.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Consideraciones sobre la implementación}{35}{chapter.5}
+\contentsline {chapter}{\numberline {5}Consideraciones sobre la implementación}{33}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Visión general}{35}{section.5.1}
+\contentsline {section}{\numberline {5.1}Visión general}{33}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Reglas de estilo}{35}{section.5.2}
+\contentsline {section}{\numberline {5.2}Reglas de estilo}{33}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{35}{section.5.3}
+\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{33}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Atom}{35}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Atom}{33}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}\acrlong {gcc}}{35}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}\acrlong {gcc}}{34}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Git}{38}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Git}{34}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Make}{38}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.4}Make}{35}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}darkFunction Editor}{39}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.5}darkFunction Editor}{35}{subsection.5.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.6}\acrshort {xml} to \acrshort {json}}{39}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.6}\acrshort {xml} to \acrshort {json}}{36}{subsection.5.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.7}\acrshort {gimp}}{39}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.7}\acrshort {gimp}}{36}{subsection.5.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Código y jerarquía de proyecto}{43}{section.5.4}
+\contentsline {section}{\numberline {5.4}Código y jerarquía de proyecto}{37}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Desarrollo del juego}{43}{section.5.5}
+\contentsline {section}{\numberline {5.5}Desarrollo del juego}{37}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Plan de Pruebas}{45}{chapter.6}
+\contentsline {chapter}{\numberline {6}Plan de Pruebas}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Manual de Usuario}{47}{chapter.7}
+\contentsline {section}{\numberline {6.1}Pruebas unitarias}{39}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Incidencias}{49}{chapter.8}
+\contentsline {section}{\numberline {6.2}Pruebas de integración}{40}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Conversión de XML a JSON}{49}{section.8.1}
+\contentsline {section}{\numberline {6.3}Pruebas de hardware}{40}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusiones y Líneas Futuras}{51}{chapter.9}
+\contentsline {section}{\numberline {6.4}Pruebas de usabilidad}{40}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Visión general}{51}{section.9.1}
+\contentsline {chapter}{\numberline {7}Manual de Usuario}{41}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Objetivos cumplidos}{51}{section.9.2}
+\contentsline {chapter}{\numberline {8}Incidencias}{43}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Consideraciones del trabajo realizado}{51}{section.9.3}
+\contentsline {section}{\numberline {8.1}Conversión de XML a JSON}{43}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Líneas Futuras}{51}{section.9.4}
+\contentsline {section}{\numberline {8.2}inotify}{43}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acrónimos}{53}{section*.40}
+\contentsline {chapter}{\numberline {9}Conclusiones y Líneas Futuras}{45}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Agradecimientos}{55}{appendix*.42}
+\contentsline {section}{\numberline {9.1}Visión general}{45}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Objetivos cumplidos}{45}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Consideraciones del trabajo realizado}{45}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Líneas Futuras}{45}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acrónimos}{47}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Agradecimientos}{49}{appendix*.42}

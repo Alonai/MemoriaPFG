@@ -1,9 +1,9 @@
 [1] Config.pm:318> INFO - This is Biber 1.8
-[1] Config.pm:321> INFO - Logfile is 'PFG-Unai-Alonso.blg'
-[86] biber:275> INFO - === Tue Jun 16, 2015, 14:21:59
+[2] Config.pm:321> INFO - Logfile is 'PFG-Unai-Alonso.blg'
+[86] biber:275> INFO - === Tue Jun 16, 2015, 16:57:14
 [87] Biber.pm:333> INFO - Reading 'PFG-Unai-Alonso.bcf'
 [160] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
 [160] Utils.pm:169> WARN - The file 'PFG-Unai-Alonso.bcf' does not contain any citations!
-[176] bbl.pm:482> INFO - Writing 'PFG-Unai-Alonso.bbl' with encoding 'UTF-8'
-[176] bbl.pm:555> INFO - Output to PFG-Unai-Alonso.bbl
-[176] Biber.pm:105> INFO - WARNINGS: 1
+[177] bbl.pm:482> INFO - Writing 'PFG-Unai-Alonso.bbl' with encoding 'UTF-8'
+[178] bbl.pm:555> INFO - Output to PFG-Unai-Alonso.bbl
+[178] Biber.pm:105> INFO - WARNINGS: 1
