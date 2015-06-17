@@ -4,7 +4,7 @@
 
 	Como es normal, a lo largo del proyecto han surgido diferentes incidencias que han retrasado el proyecto o han hecho que el alcance o los requisitos del mismo hayan tenido que ser modificados. A continuación se muestran los problemas más relevantes y cómo se han solucionado.
 
-\section{Conversión de \acrshort{xml} a \acrshort{json}}
+\section{Conversión de XML a JSON}
 
 	Como ya se ha explicado, se decidió utilizar \acrshort{json} en el proyecto en vez de \acrshort{xml} por ser más conveniente. Sin embargo, no existe o no se ha encontrado ninguna herramienta que generase archivos con coordenadas gráficas y animaciones en \acrshort{json}, pero existen muchas que crean archivos \acrshort{xml}, así que se decidió que se traducirían. Hacerlo a mano no era viable, ya que llevarían demasiado tiempo y existían muchas posibilidades de cometer errores. La segunda opción consistía en crear un pequeño que recibiese un \acrshort{xml} y lo tradujese a \acrshort{json}, pero de nuevo esta opción no era conveniente por los mismos problemas, además de que la complejidad del algoritmo sería grande. Por tanto se decidió buscar una herramienta que los convirtiese, y tras barajar unas cuantas posibilidades se decidió usar el servicio web XML to JSON.
 
@@ -12,7 +12,7 @@
 
 	//TODO Poner imagen que demuestre que se convierte mal
 
-\section{Versión de \acrshort{sfml} del repositorio desactualizada}
+\section{Versión de SFML del repositorio desactualizada}
 
 	\acrshort{tgui}, la librería utilizada para crear las interfaces gráficas de usuario, es muy estricta con las versiones de \acrshort{sfml} con las que trabaja. Cada versión exige una versión de \acrshort{sfml} y solo ofrece compatibilidad con versiones posteriores, nunca retrocompatibilidad. En el momento en el que instaló por primera vez la entonces última versión de \acrshort{tgui}, esta requería utilizar la versión 2.2 de \acrshort{sfml}, que también era en ese momento la última disponible. Dado que \acrshort{sfml} se instaló desde el repositorio oficial, se asumió que se habría instalado dicha versión, pero no fue así. Por algún motivo, el repositorio aún servía la versión anterior, la 2.1, de forma que al intentar utilizar la librería \acrshort{tgui} aparecían un montón de errores y la aplicación no funcionaba. En este punto había dos opciones: utilizar una versión más antigua de \acrshort{tgui} que fuese compatible con \acrshort{sfml} 2.1 o actualizar \acrshort{sfml} a la versión 2.2. Se decidió actualizar \acrshort{sfml}, ya que la nueva versión corregía algunos errores y traía mejoras en la funcionalidad, lo que ayudaría a conseguir un producto final más robusto.
 

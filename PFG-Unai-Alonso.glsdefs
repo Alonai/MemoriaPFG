@@ -598,3 +598,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{utf}{}%
+{%
+\gls@defglossaryentry{utf}%
+{%
+name={UTF},%
+sort={UTF},%
+type={acronym},%
+first={Unicode Transformation Format (UTF)},%
+firstplural={Unicode Transformation Formats(UTFs)},%
+text={UTF},%
+plural={UTFs},%
+description={Unicode Transformation Format},%
+descriptionplural={Unicode Transformation Format\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unicode Transformation Format},%
+longplural={Unicode Transformation Formats},%
+short={UTF},%
+shortplural={UTFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
