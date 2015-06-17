@@ -10,7 +10,12 @@
 
 	XML to JSON cumplió su cometido, pero también introdujo nuevos problemas. En \acrshort{json}, los valores de cada par clave-valor pueden ser de distintos tipos: cadenas, números, objetos, matrices, valores booleanos o valor nulo. La aplicación web citada convertía adecuadamente los valores del \acrshort{xml} a \acrshort{json}, todos excepto uno. Por alguna razón, el conversor en vez de escribir valores numéricos, escribía cadenas que contenían el número. Esto conllevó que el algoritmo hecho para analizar los \acrshort{json} y crear las animaciones fallaba, ya que esperaba encontrar números y encontraba cadenas. Por suerte, la solución fue bastante sencilla: simplemente se leyeron los valores como cadenas y, utilizando funciones de la librería estándar de C++, se convirtieron a números antes de ser usadas. A pesar de que esta solución hace que el algoritmo sea algo más lento, se consideró la solución más apropiada, ya que la aplicación de la misma era muy sencilla y el coste temporal mínimo.
 
-	//TODO Poner imagen que demuestre que se convierte mal
+	\begin{figure}[!htp]
+		 \centering
+		 \includegraphics[scale=.15]{fig/conversionNums}
+		 \caption{Ejemplo del error de conversión de números}
+		 \label{fig:conversionNums}
+	\end{figure}
 
 \section{Versión de SFML del repositorio desactualizada}
 
