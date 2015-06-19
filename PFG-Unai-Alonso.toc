@@ -172,7 +172,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Conversión de XML a JSON}{43}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Versión de SFML del repositorio desactualizada}{43}{section.8.3}
+\contentsline {section}{\numberline {8.3}SFML del repositorio desactualizada}{43}{section.8.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}Error de inicialización de palanca de juego}{44}{section.8.4}
 \defcounter {refsection}{0}\relax 
@@ -186,6 +186,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.4}Líneas Futuras}{45}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acrónimos}{47}{section*.40}
+\contentsline {chapter}{Acrónimos}{47}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Agradecimientos}{49}{appendix*.42}
+\contentsline {chapter}{Agradecimientos}{49}{appendix*.47}
