@@ -17,6 +17,8 @@
 		 \label{fig:conversionNums}
 	\end{figure}
 
+	\FloatBarrier
+
 \section{SFML del repositorio desactualizada}
 
 	\acrshort{tgui}, la librería utilizada para crear las interfaces gráficas de usuario, es muy estricta con las versiones de \acrshort{sfml} con las que trabaja. Cada versión exige una versión de \acrshort{sfml} y solo ofrece compatibilidad con versiones posteriores, nunca retrocompatibilidad. En el momento en el que instaló por primera vez la entonces última versión de \acrshort{tgui}, esta requería utilizar la versión 2.2 de \acrshort{sfml}, que también era en ese momento la última disponible. Dado que \acrshort{sfml} se instaló desde el repositorio oficial, se asumió que se habría instalado dicha versión, pero no fue así. Por algún motivo, el repositorio aún servía la versión anterior, la 2.1, de forma que al intentar utilizar la librería \acrshort{tgui} aparecían un montón de errores y la aplicación no funcionaba. En este punto había dos opciones: utilizar una versión más antigua de \acrshort{tgui} que fuese compatible con \acrshort{sfml} 2.1 o actualizar \acrshort{sfml} a la versión 2.2. Se decidió actualizar \acrshort{sfml}, ya que la nueva versión corregía algunos errores y traía mejoras en la funcionalidad, lo que ayudaría a conseguir un producto final más robusto.
@@ -31,5 +33,7 @@
 		 \caption{Captura del error de inicialización}
 		 \label{fig:inotify}
 	\end{figure}
+
+	\FloatBarrier
 
 	Aparentemente, el error se da debido a que \acrshort{sfml} no detecta adecuadamente las palancas de control. Cabe mencionar que, aunque \acrshort{sfml} provea soporte para palancas de control y mandos, no se han utilizado en el proyecto en ningún momento, de forma que no debería haber errores a causa de ello. Sin embargo, \acrshort{sfml} siempre inicializa el módulo encargado de ello, y en ocasiones falla. Se investigó sobre el problema y se vió que ya había sido reportado por varios usuarios desde la versión 2.1 de \acrshort{sfml}, y al parecer ocurría en sistemas que utilizaban un sistema operativo basado en Ubuntu cuando había muchos archivos abiertos. Asumiendo esto, el error debería desaparecer si se cerraban archivos, pero no era así. El error persistía y no desaparecía a pesar de que se reiniciara el ordenador o se recompilase el programa. Finalmente, la forma de solucionarlo fue la siguiente: se desintalaron tanto \acrshort{sfml} como \acrshort{tgui} y se reinstalaron en sus versiones más recientes. Durante el desarrollo del proyecto la versión 2.3 \acrshort{sfml} fue lanzada, y \acrshort{tgui} se actualizó también con una versión compatible con \acrshort{sfml} 2.3. Se procedió a reinstalar ambas librerías y, al recompilar el código, el error desapareció.
