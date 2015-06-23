@@ -136,11 +136,71 @@
 
 	\subsection{Animaciones}
 
-		//WIP
+		Todos los personajes del juego cuentan con una animación visual distinta para cada acción que realizan, ya sea moverse, atacar o usar alguna habilidad. Para animarlos, es necesario contar con una imagen estática para cada paso de la animación y después pintarlas en la secuencia correcta mediante algoritmia.
+
+		Estas imágenes pueden estar en dos formatos distintos: cada una en un fichero o todas juntas en el mismo, lo cual se denomina matriz de imágenes. Las segundas son mucho más usadas ya que las operaciones de carga de ficheros son lentas y costosas, de forma que es mucho más eficiente cargar una sola imágen que varias, aún cuando el tamaño de esta es grande.
+
+		El inconveniente que tienen las matrices de imágenes es que la complejidad de los algoritmos de pintado aumenta, ya que no es suficiente simplemente con dibujar la imagen entera en el momento correcto, sino que es necesario dibujar un pedazo concreto de la imagen en un momento concreto. Cada uno de estos pedazo corresponde a cada paso de las animaciones, y pueden ser de tamaño variable entre sí.
+
+		Hay que hacerle saber al programa cuáles son las coordenadas y el tamaño de cada pedazo, y existen dos formas de hacerlo: introduciendo los datos a mano, lo cual es muy costoso e inconveniente en caso de necesidad de modificación, o leerlas de un archivo. En este caso, se ha optado por utilizar archivos \acrshort{json} para almacenar las coordenadas de las imágenes y la definición de animaciones.
+
+		Estos archivos han sido generados a partir de los archivos \acrshort{xml} proporcionados por el programa darkFunction Editor. Para la conversión de \acrshort{xml} a \acrshort{json}, se ha utilizado la aplicación web \acrshort{xml} to \acrshort{json}.
+
+		A continuación se muestran las estructura de los archivos \acrshort{json} que contiene animaciones y coordenadas.
+
+		\begin{center}
+		\begin{minipage}{.9\textwidth}
+		\singlespace
+		\fvset{frame=single}
+		\begin{pyglist}[language=json, caption={Estructura de los archivos de animación en \acrshort{json}},
+			label={alg:animjson}, listingname={Algoritmo}, numbers=left]
+		
+		\end{pyglist}
+		\fvset{frame=none}
+		\end{minipage}
+		\end{center}
+
+		Como se puede ver, el archivo de animaciones contiene el nombre del archivo de coordenadas y una lista de animaciones. Cada animación cuenta con un nombre y una lista de celdas. Las celdas contienen la ruta de las coordenadas que corresponden al paso de animación que se desea. El resto de datos que se pueden observar en la figura no se utilizan, simplemente están ahí porque los generaba darkFunction Editor.
+
+		Por otro lado, el archivo de coordenadas contiene el nombre de la imagen de la que se deben extraer las celdas, así como el valor de su altura y anchura. Tras esto, contiene el nombre de la entidad y una lista de estados. Los archivos contienen un estado por cada acción que puede realizar el personaje. Como la visualización de cada estado varía en función de la dirección en la que se ejecute, cada estado contiene una lista para cada dirección: arriba, abajo e izquierda. La derecha se consigue volteando las imágenes en tiempo de ejecución. Por último, cada dirección contiene una lista de coordenadas. Cada coordenada tiene un número de identificación y cuatro parámetros: la coordenada en el eje horizontal, la coordenada en el eje vertical, la altura y la anchura. El resto de datos no se utilizan, pero existen porque fueron generados por darkFunction Editor.
+
+		El funcionamiento del algortimo es en realidad bastante sencillo. Recibe el nombre del archivo de animaciones, lo carga. De él extrae el nombre del archivo de coordenadas y lo carga también. A continuación, genera un objeto de animación por cada entrada en la lista de animaciones del primer \acrshort{json}. Para ello, va leyendo la lista de celdas de cada animación la ruta de las coordenadas. Por último, se dirige al archivo de coordenadas y busca en el árbol \acrshort{json} el objeto existente el dicha ruta, y extrae los parámetros necesarios.
 
 	\subsection{Generación de mapas}
 
-		//WIP
+		Como ya se ha definido, uno de los requisitos del proyecto era que el mapa del juego fuese generado proceduralmente. Para ello, se investigaron diferentes técnicas y algoritmos con este propósito, y, tras barajar distintas posibilidades, se optó por el siguiente algoritmo, denominado \textit{Drunkard's walk}.
+
+		Este es un sencillo algoritmo que se puede utilizar para generar terrenos cuadriculados. Generar un escenario con una sola ejecución del algoritmo garantiza que el nivel estará completamente conectado, con una mezcla de espacios abiertos y estrechos muy variable.
+
+		A continuación se definen los pasos básicos del algoritmo:
+
+		\begin{itemize}
+
+			\item Inicializar todas las celdas del mapa como infranqueables.
+
+			\item Seleccionar una celda del mapa aleatoriamente.
+
+			\item Convertir esa celda en navegable.
+
+			\item Mientras no se haya llegado al número de navegables estipulado:
+
+			\begin{itemize}
+
+				\item Moverse una celda en una dirección aleatoria.
+
+				\item Si la celda es infranqueable, volverla navegable y actualizar número de navegables.
+
+			\end{itemize}
+
+		\end{itemize}
+
+		Para resultados óptimos, el algoritmo requiere que el mapa pueda ser redimensionado dinámicamente, de forma que se evite que los niveles toquen los límites con resultados insatisfactorios. Sin embargo, se le han hecho unos ajustes al algoritmo para adaptarlo a las necesidades y deseos del proyecto.
+
+		En primer lugar, el mapa no se redimensiona, el generador recibe una altura y una anchura que no varían. Para evitar el problema citado anteriormente, se ha impuesto la restricción de que el algoritmo debe dejar al menos dos celdas como infranqueables en cada límite.
+
+		Con esto ya se conseguía un mapa para la partida, pero en los videojuegos, la escenografía juega un papel muy importante en la experiencia de usuario, de forma que era necesario hacer el ambiente visualmente agradable. Para ello, se decidió que el entorno sería una isla, y se creó un método recursivo que, dadas las coordenadas de una celda infranqueable, marca todas las demás del mismo tipo que sean colindantes a ella, y después hace lo mismo con las marcadas. De esta manera, se puede marcar cada conjunto aislado de celdas no navegables.
+
+		Este método se aplica sobre la celda en el eje de las coordenadas, de forma que quedan marcadas todas las celdas que rodean a las celdas navegables. Tras esto, se aplican una serie de sencillos algoritmos que sustituyen las gráficas de las celdas marcadas por distintas gráficas de agua, dando la sensación de isla.
 
 	\subsection{Sistemas de estados para entidades}
 
