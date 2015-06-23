@@ -628,3 +628,123 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{fps}{}%
+{%
+\gls@defglossaryentry{fps}%
+{%
+name={FPS},%
+sort={FPS},%
+type={acronym},%
+first={Frames per second (FPS)},%
+firstplural={Frames per seconds(FPSs)},%
+text={FPS},%
+plural={FPSs},%
+description={Frames per second},%
+descriptionplural={Frames per second\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Frames per second},%
+longplural={Frames per seconds},%
+short={FPS},%
+shortplural={FPSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ia}{}%
+{%
+\gls@defglossaryentry{ia}%
+{%
+name={IA},%
+sort={IA},%
+type={acronym},%
+first={Inteligencia Artificial (IA)},%
+firstplural={Inteligencia Artificials(IAs)},%
+text={IA},%
+plural={IAs},%
+description={Inteligencia Artificial},%
+descriptionplural={Inteligencia Artificial\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Inteligencia Artificial},%
+longplural={Inteligencia Artificials},%
+short={IA},%
+shortplural={IAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ea}{}%
+{%
+\gls@defglossaryentry{ea}%
+{%
+name={EA},%
+sort={EA},%
+type={acronym},%
+first={Electronic Arts (EA)},%
+firstplural={Electronic Artss(EAs)},%
+text={EA},%
+plural={EAs},%
+description={Electronic Arts},%
+descriptionplural={Electronic Arts\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Electronic Arts},%
+longplural={Electronic Artss},%
+short={EA},%
+shortplural={EAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gba}{}%
+{%
+\gls@defglossaryentry{gba}%
+{%
+name={GBA},%
+sort={GBA},%
+type={acronym},%
+first={Game Boy Advance (GBA)},%
+firstplural={Game Boy Advances(GBAs)},%
+text={GBA},%
+plural={GBAs},%
+description={Game Boy Advance},%
+descriptionplural={Game Boy Advance\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Game Boy Advance},%
+longplural={Game Boy Advances},%
+short={GBA},%
+shortplural={GBAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
