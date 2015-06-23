@@ -67,6 +67,10 @@
 \RequirePackage{booktabs}               % Paquete para hacer tablas profesionales
 \RequirePackage{subcaption}             % Paquete para hacer subfiguras
 
+\RequirePackage{listings}               % Paquete para introducir c\'odigo fuente
+\renewcommand\lstlistingname{Algoritmo} % Personalizaci\'on del entorno para el c\'odigo fuente
+\renewcommand\lstlistlistingname{\'Indice de algoritmos}
+
 \RequirePackage{etoolbox}
 \RequirePackage{tocbibind}              % Paquete para incluir los distintos \'indices en el \'indice
 \RequirePackage[titles]{tocloft}        % Paquete para personalizar el \'indce

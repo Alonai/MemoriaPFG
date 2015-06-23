@@ -149,14 +149,34 @@
 		A continuación se muestran las estructura de los archivos \acrshort{json} que contiene animaciones y coordenadas.
 
 		\begin{center}
-		\begin{minipage}{.9\textwidth}
-		\singlespace
-		\fvset{frame=single}
-		\begin{pyglist}[language=json, caption={Estructura de los archivos de animación en \acrshort{json}},
-			label={alg:animjson}, listingname={Algoritmo}, numbers=left]
-		
-		\end{pyglist}
-		\fvset{frame=none}
+		\begin{minipage}{.6\textwidth}
+		\begin{lstlisting}[caption={Estructura de las animaciones en \acrshort{json}},label={lst:animjson},language=JavaScript]
+			{
+			  "img": {
+			    "-name": "6369.png",
+			    "-w": "1208",
+			    "-h": "3736",
+			    "definitions": {
+			      "dir": {
+			        "-name": "Link",
+			        "dir": [
+			          {
+			            "-name": "Idle",
+			            "dir": [
+			              {
+			                "-name": "Down",
+			                "spr": {
+			                  "-name": "0",
+			                  "-x": "15",
+			                  "-y": "9",
+			                  "-w": "18",
+			                  "-h": "23"
+			                }
+			              },
+			              {
+			                "-name": "Left",
+			                "spr": {
+		\end{lstlisting}
 		\end{minipage}
 		\end{center}
 
