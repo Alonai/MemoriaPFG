@@ -263,6 +263,10 @@
 
 		//WIP
 
+	\subsection{\acrshort{ia} enemiga}
+
+		//WIP
+
 	\subsection{Gestión de escenas}
 
 		Para la gestión de escenas de manera sencilla y eficiente, se ha desarrollado un \textit{scene graph}, que consiste en una estructura de árbol binario formada por múltiples nodos, llamados nodos de escena. Cada nodo contiene un objeto a ser dibujado en pantalla, habitualmente una entidad.
@@ -270,3 +274,5 @@
 		Cada nodo puede tener un número arbitrario de nodos hijo, pero solo puede tener un nodo padre. Los nodos solo guardan su posición, rotación y escala relativos a su padre. Esto implica que un cambio a cualquiera de los atributos mencionados de una entidad es aplicado automáticamente a las entidades hijas, lo cual es extremadamente útil cuando se quieren hacer operaciones sobre grupos. En caso de querer acceder a las posiciones, rotaciones o escalas absolutas de un nodo hijo, es suficiente con escalar en la estructura acumulando las transformaciones relativas hasta llegar a la raíz.
 
 		En videojuegos, esta técnica es muy utilizada para la gestión de mundos grandes. En estas aplicaciones, los requisitos de memoria son muy a tener en cuenta al diseñar una \textit{scene graph}. Por esta razón, muchos de estos sistemas se basan en la instanciación para reducir costes de memoria y aumentar la velocidad. Esto quiere decir que tan solo se guarda una copia de los datos de una entidad, y se referencia en los nodos que sea necesario.
+
+		En ejecución, cada vez que se quiere actualizar o dibujar la escena, es suficiente con llamar al método correspondiente del nodo raíz, ya que este ejecuta el método sobre sí mismo e invoca el mismo método de todos sus nodos hijos, los cuales se comportan de la misma manera. Así se consigue que todos los nodos se actualicen o dibujen siempre que sea necesario.
