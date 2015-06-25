@@ -261,11 +261,21 @@
 
 	\subsection{Sistemas de estados para entidades}
 
-		//WIP
+		Uno de los requisitos más importantes para conseguir una experiencia de usuario satisfactoria es que el control responda adecuadamente. Esto, a pesar de parecer fácil de conseguir, es complicado, ya que controlar lo que debe hacer un personaje en base a su estado actual y las entradas que recibe se vuelve exponencialmente complicado a medida que se añaden nuevas posibilidades de acción.
+
+		Por ello, se decidió que se crearía un sistema de estados para controlas las acciones de los personajes. De esta forma, las entidades serían en esencia máquinas de estados finitas, y cada estado se encargaría de gestionar las entradas relevantes para el mismo y efectuaría el cambio de estado adecuado de ser necesario.
+
+		Esta característica se ha implementado utilizando funcionalidades de la programación orientada a objetos, las cuales son proporcionadas por C++. Se ha creado una clase base \textit{State}, la cual contiene un método polimórfico de actualización, el cual es reimplementado en cada clase hija para aportar las funcionalidades requeridas en cada uno. De esta manera, se han creado estados como \textit{ShootState}, \textit{MoveState} o \textit{AttackState} tanto para el jugador como para los enemigos.
 
 	\subsection{\acrshort{ia} enemiga}
 
-		//WIP
+		Existen dos tipos de enemigos en el juego, cada uno con un comportamiento distinto. El primero de ellos persigue al jugador y lo daña al contacto. El segundo se alinea con el jugador y lo dispara. El funcionamiento de la \acrshort{ia} de ambos es muy sencilla: cuentan con un radio de acción y, si el jugador se encuentra en él, se sirven del algoritmo A*~\cite{astar} para buscar el camino hacia la posición que desean.
+
+		El destino del primer enemigo siempre es la posición del jugador, de forma que la ruta solo se recalcula si la posición actual del jugador es distinta a la última posición en la que se calculó la trayectoria.
+
+		El segundo enemigo funciona de manera ligeramente distinta. En vez de buscar una ruta hasta el jugador, busca la ruta más corta que lo lleve hasta un punto en el cual se alinee con él. Desde ahí, el enemigo procede a disparar al jugador cada un breve espacio de tiempo.
+
+		La razón por la cual se ha decidido utilizar el algoritmo A* frente a otras alternativas es que, en el desarrollo de videojuegos, este algoritmo es sin duda el más ampliamente utilizado para movimientos, ya que por definición es óptimo y completo, lo que quiere decir que siempre encuentra una solución y siempre es la óptima o una de las óptimas. Además, el coste computacional que requiere es más que asequible en comparación con los resultados que proporciona.
 
 	\subsection{Gestión de escenas}
 
