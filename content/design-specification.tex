@@ -19,7 +19,12 @@
 
 \section{Diagrama de clases}
 
-	//TODO
+	\begin{figure}[!htp]
+		 \centering
+		 \includegraphics[scale=.15]{fig/class}
+		 \caption{Diagrama de clases}
+		 \label{fig:class}
+	\end{figure}
 
 \section{Diagramas de actividad}
 
@@ -116,4 +121,36 @@
 
 \section{Diseño del juego}
 
-	//TODO
+	En esta sección se presentará el diseño del juego, es decir, la definición del comportamiento del mismo dentro de una partida.
+
+	\subsection{Jugador}
+
+		El jugador podrá moverse libremente por el mapa y utilizar cualquiera de sus habilidades en todo momento, siempre que no esté ya usando una o esté siendo desplazado por haber sido alcanzado por un ataque enemigo. No existirá límite en el número de veces que puede usar cualquiera de sus habilidades.
+
+		Si el jugador es dañado, su barra de vida, la cual siempre será visible durante una partida, se reducirá en un cuarto. De esta manera, si el jugador es dañado cuatro veces en la misma partida, morirá y la partida se considerará un fracaso. No existirá manera de regenerar la barra de vida.
+
+		El enemigos dispone de tres habilidades: ataque cuerpo a cuerpo, disparo y poantar bomba. Si un jugador colisiona con un enemigo mientras ejecuta el ataque cuerpo a cuerpo y el lado de la colisión coincide con el lado hacia el que está ejecutando el ataque, el enemigo será dañado y el jugador quedará impune. En cualquier otro caso si el jugador es alcanzado por un enemigo o un proyectil enemigo, será dañado.
+
+	\subsection{Enemigos}
+
+		Habrá dos tipos de enemigo en el juego, ambos con el objetivo de acabar con el jugador. Ambos estarán quietos hasta que el jugador entre en su radio de acción, y se quedarán quietos si el jugador sale del mismo.
+
+		El primer enemigo buscará chocarse contra el jugador, de forma que buscará la ruta más corta hasta el mismo y procederá a recorrerla. En caso de que el jugador se mueva volverá a buscar una ruta hasta él. Si el enemigo colisiona con el jugador, lo dañará y lo empujará hacia atrás. Este enemigo morirá si es alcanzado por cualquiera de las habilidades del jugador.
+
+		El segundo enemigo, en vez de buscar una ruta hasta el jugador, buscará la ruta más corta para alienarse con él y la recorrerá. Una vez alineado, disparará al jugador infinitas veces, con un breve espacio de tiempo entre disparo y disparo. Los disparos de este enemigo no podrán ser bloqueados o eliminados de ninguna manera, solo podrán ser esquivados. Este enemigo morirá si es alcanzado por cualquiera de las habilidades del jugador, y tanto sus disparos como su contacto físico directo dañarán al jugador y lo empujarán.
+
+	\subsection{Colisiones con el mundo}
+
+		Tanto el personaje como los enemigos deben colisionar adecuadamente con el mundo, es decir, solo deben ser capaces de atravesar las celdas que, tanto a nivel lógico como visual, son navegables. En caso de que intenten atravesar una celda que no cumpla alguno de los requisitos, el juego debe parar su movimiento y colocarlo justo al lado de la casilla que pretendía atravesar.
+
+	\subsection{Colisiones con objetos}
+
+		Habrá dos objetos con los que se pueda colisionar: proyectiles y bombas.
+
+		Los proyectiles no colisionarán con el mundo, es decir, serán capaces de atravesar cualquier obstáculo. Los proyectiles lanzados por el jugador solo dañarán a enemigos y viceversa.
+
+		Las bombas no podrán ser colocadas en partes del mapa que no se puedan atravesar. Una vez colocadas, permanecerán inactivas un breve periodo de tiempo, y tras esto explotarán. Mientras la bomba está inactiva, no tendrá ninguna consecuencia colisionar con ella. No obstaculizará el movimiento y no dañará. Sin embargo, a la hora de explotar, la caja de colisión de la bomba aumentará y dañará a cualquier cosa que colisione con ella, ya sea un enemigo o el propio jugador.
+
+	\subsection{Objetivo}
+
+		El objetivo del juego es eliminar a todos los enemigos del mapa dentro del tiempo límite fijado. Este tiempo será visible en todo momento en pantalla, y su valor se actualizará cada segundo. Se considerará una partida existosa si el jugador consigue acabar con todos ellos, y se considerará un fracaso si los enemigos consiguen matarlo o se le agota el tiempo límite.
