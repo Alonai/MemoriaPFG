@@ -52,42 +52,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de arquitectura\relax }}{31}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de actividad\relax }}{32}{figure.caption.37}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de clases\relax }}{32}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Logotipo de \acrshort {sfml}\relax }}{33}{figure.caption.38}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de actividad\relax }}{33}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Logotipo de C++\relax }}{34}{figure.caption.39}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logotipo de \acrshort {sfml}\relax }}{34}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Logotipo de \acrshort {json}\relax }}{35}{figure.caption.40}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Logotipo de C++\relax }}{35}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Logotipo de \acrshort {tgui}\relax }}{35}{figure.caption.41}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logotipo de \acrshort {json}\relax }}{36}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Logotipo de \acrshort {tgui}\relax }}{36}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 {\bfseries Cap\'itulo 5\vskip 10pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Logotipo de Atom\relax }}{38}{figure.caption.42}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Logotipo de Atom\relax }}{42}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Logotipo de \acrshort {gcc}\relax }}{39}{figure.caption.43}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Logotipo de \acrshort {gcc}\relax }}{43}{figure.caption.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Logotipo de Git\relax }}{39}{figure.caption.44}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Logotipo de Git\relax }}{43}{figure.caption.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Logotipo de Make\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Logotipo de Make\relax }}{44}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Logotipo de darkFunction\relax }}{40}{figure.caption.46}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Logotipo de darkFunction\relax }}{44}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Logotipo de \acrshort {gimp}\relax }}{41}{figure.caption.47}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Logotipo de \acrshort {gimp}\relax }}{45}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+{\bfseries Cap\'itulo 6\vskip 10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Ejemplo del error de conversión de números\relax }}{52}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Captura del error de inicialización\relax }}{52}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-{\bfseries Cap\'itulo 8\vskip 10pt}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Ejemplo del error de conversión de números\relax }}{50}{figure.caption.48}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Captura del error de inicialización\relax }}{50}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

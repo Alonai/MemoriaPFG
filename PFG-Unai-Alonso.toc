@@ -48,7 +48,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Diseño del juego}{7}{subsubsection*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desarrollo del software}{8}{subsubsection*.15}
+\contentsline {subsubsection}{Desarrollo del software}{7}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Validación técnica y de usabilidad:}{8}{subsubsection*.16}
 \defcounter {refsection}{0}\relax 
@@ -60,13 +60,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Esquema organizativo}{8}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Plan de recursos humanos}{9}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Plan de recursos humanos}{8}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Condiciones de ejecución}{9}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.1}Entorno de trabajo}{9}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Diálogo durante el proyecto}{10}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.2}Diálogo durante el proyecto}{9}{subsection.2.6.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.3}Recepción de productos}{10}{subsection.2.6.3}
 \defcounter {refsection}{0}\relax 
@@ -78,7 +78,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.2}Diagrama de Gantt}{19}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.3}Diagrama de Red}{19}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.3}Diagrama de Precedencias}{19}{subsection.2.7.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}Presupuesto}{25}{section.2.8}
 \defcounter {refsection}{0}\relax 
@@ -112,86 +112,108 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Arquitectura}{31}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Diagramas de actividad}{31}{section.4.3}
+\contentsline {section}{\numberline {4.3}Diagrama de clases}{31}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Tecnologías utilizadas}{33}{section.4.4}
+\contentsline {section}{\numberline {4.4}Diagramas de actividad}{32}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}\acrshort {sfml}}{33}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Tecnologías utilizadas}{34}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}C++}{33}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5.1}\acrshort {sfml}}{34}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}\acrshort {json}}{34}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.5.2}C++}{34}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}\acrshort {tgui}}{35}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.5.3}\acrshort {json}}{35}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}JsonCpp}{36}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.5.4}\acrshort {tgui}}{36}{subsection.4.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Consideraciones sobre la implementación}{37}{chapter.5}
+\contentsline {subsection}{\numberline {4.5.5}JsonCpp}{37}{subsection.4.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Visión general}{37}{section.5.1}
+\contentsline {section}{\numberline {4.6}Diseño del juego}{37}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Reglas de estilo}{37}{section.5.2}
+\contentsline {subsection}{\numberline {4.6.1}Jugador}{37}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{37}{section.5.3}
+\contentsline {subsection}{\numberline {4.6.2}Enemigos}{37}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Atom}{37}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {4.6.3}Colisiones con el mundo}{38}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}\acrlong {gcc}}{38}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {4.6.4}Colisiones con objetos}{38}{subsection.4.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Git}{39}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {4.6.5}Objetivo}{38}{subsection.4.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Make}{39}{subsection.5.3.4}
+\contentsline {section}{\numberline {4.7}Plan de Pruebas}{38}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}darkFunction Editor}{40}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {4.7.1}Pruebas unitarias}{39}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.6}\acrshort {xml} to \acrshort {json}}{40}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {4.7.2}Pruebas de integración}{39}{subsection.4.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.7}\acrshort {gimp}}{41}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {4.7.3}Pruebas de hardware}{39}{subsection.4.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Desarrollo del juego}{41}{section.5.4}
+\contentsline {subsection}{\numberline {4.7.4}Pruebas de usabilidad}{39}{subsection.4.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Animaciones}{41}{subsection.5.4.1}
+\contentsline {chapter}{\numberline {5}Consideraciones sobre la implementación}{41}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Generación de mapas}{43}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.1}Visión general}{41}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Sistemas de estados para entidades}{44}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.2}Reglas de estilo}{41}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}IA enemiga}{44}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.3}Entorno de desarrollo}{41}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Gestión de escenas}{44}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.3.1}Atom}{41}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Plan de Pruebas}{45}{chapter.6}
+\contentsline {subsection}{\numberline {5.3.2}\acrlong {gcc}}{42}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Pruebas unitarias}{45}{section.6.1}
+\contentsline {subsection}{\numberline {5.3.3}Git}{43}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Pruebas de integración}{46}{section.6.2}
+\contentsline {subsection}{\numberline {5.3.4}Make}{43}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Pruebas de hardware}{46}{section.6.3}
+\contentsline {subsection}{\numberline {5.3.5}darkFunction Editor}{44}{subsection.5.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Pruebas de usabilidad}{46}{section.6.4}
+\contentsline {subsection}{\numberline {5.3.6}\acrshort {xml} to \acrshort {json}}{45}{subsection.5.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Manual de Usuario}{47}{chapter.7}
+\contentsline {subsection}{\numberline {5.3.7}\acrshort {gimp}}{45}{subsection.5.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Incidencias}{49}{chapter.8}
+\contentsline {section}{\numberline {5.4}Desarrollo del juego}{45}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Visión general}{49}{section.8.1}
+\contentsline {subsection}{\numberline {5.4.1}Animaciones}{45}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Conversión de XML a JSON}{49}{section.8.2}
+\contentsline {subsection}{\numberline {5.4.2}Generación de mapas}{48}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}SFML del repositorio desactualizada}{50}{section.8.3}
+\contentsline {subsection}{\numberline {5.4.3}Sistemas de estados para entidades}{49}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Error de inicialización de palanca de juego}{50}{section.8.4}
+\contentsline {subsection}{\numberline {5.4.4}\acrshort {ia} enemiga}{49}{subsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusiones y Líneas Futuras}{53}{chapter.9}
+\contentsline {subsection}{\numberline {5.4.5}Gestión de escenas}{49}{subsection.5.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Visión general}{53}{section.9.1}
+\contentsline {chapter}{\numberline {6}Incidencias}{51}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Objetivos cumplidos}{53}{section.9.2}
+\contentsline {section}{\numberline {6.1}Visión general}{51}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Consideraciones del trabajo realizado}{54}{section.9.3}
+\contentsline {section}{\numberline {6.2}Conversión de XML a JSON}{51}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Líneas Futuras}{55}{section.9.4}
+\contentsline {section}{\numberline {6.3}SFML del repositorio desactualizada}{52}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acrónimos}{57}{section*.50}
+\contentsline {section}{\numberline {6.4}Error de inicialización de palanca de juego}{52}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Agradecimientos}{59}{appendix*.52}
+\contentsline {chapter}{\numberline {7}Conclusiones y Líneas Futuras}{55}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Visión general}{55}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Objetivos cumplidos}{55}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Consideraciones del trabajo realizado}{56}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Líneas Futuras}{57}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'{\i }a}{59}{chapter*.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acrónimos}{61}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Manual de Usuario}{63}{appendix.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Menú principal}{63}{section.Alph1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Objetivo}{63}{section.Alph1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Controles}{63}{section.Alph1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Agradecimientos}{65}{appendix*.54}

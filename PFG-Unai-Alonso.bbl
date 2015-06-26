@@ -16,5 +16,208 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{astar}{online}{}
+      \field{sortinit}{I}
+      \field{labeltitle}{\enquote{Introduction to A*}}
+      \field{title}{\enquote{Introduction to A*}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+      \endverb
+    \endentry
+    \entry{atom}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de Atom}}
+      \field{title}{\enquote{Página oficial de Atom}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://atom.io/
+      \endverb
+    \endentry
+    \entry{cpp}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de C++}}
+      \field{title}{\enquote{Página oficial de C++}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://isocpp.org/
+      \endverb
+    \endentry
+    \entry{dark}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de darkFunction Editor}}
+      \field{title}{\enquote{Página oficial de darkFunction Editor}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://darkfunction.com/editor/
+      \endverb
+    \endentry
+    \entry{ea}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{ea}}}
+      \field{title}{\enquote{Página oficial de \acrshort{ea}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://www.ea.com/
+      \endverb
+    \endentry
+    \entry{gcc}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{gcc}}}
+      \field{title}{\enquote{Página oficial de \acrshort{gcc}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://gcc.gnu.org/
+      \endverb
+    \endentry
+    \entry{gimp}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{gimp}}}
+      \field{title}{\enquote{Página oficial de \acrshort{gimp}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://www.gimp.org/
+      \endverb
+    \endentry
+    \entry{git}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de Git}}
+      \field{title}{\enquote{Página oficial de Git}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{json}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{json}}}
+      \field{title}{\enquote{Página oficial de \acrshort{json}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://json.org/
+      \endverb
+    \endentry
+    \entry{make}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de Make}}
+      \field{title}{\enquote{Página oficial de Make}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://www.gnu.org/software/make/
+      \endverb
+    \endentry
+    \entry{sfml}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{sfml}}}
+      \field{title}{\enquote{Página oficial de \acrshort{sfml}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://www.sfml-dev.org/
+      \endverb
+    \endentry
+    \entry{tgui}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{tgui}}}
+      \field{title}{\enquote{Página oficial de \acrshort{tgui}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://tgui.eu/
+      \endverb
+    \endentry
+    \entry{zelda}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de The Legend of Zelda}}
+      \field{title}{\enquote{Página oficial de The Legend of Zelda}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://www.zelda.com/
+      \endverb
+    \endentry
+    \entry{ubisoft}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de Ubisoft}}
+      \field{title}{\enquote{Página oficial de Ubisoft}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://www.ubisoft.com/
+      \endverb
+    \endentry
+    \entry{valve}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de Valve}}
+      \field{title}{\enquote{Página oficial de Valve}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://www.valvesoftware.com/
+      \endverb
+    \endentry
+    \entry{xml}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de \acrshort{xml}}}
+      \field{title}{\enquote{Página oficial de \acrshort{xml}}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://www.w3.org/XML/
+      \endverb
+    \endentry
+    \entry{xmljson}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{\enquote{Página oficial de XML to JSON}}
+      \field{title}{\enquote{Página oficial de XML to JSON}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://www.utilities-online.info/xmltojson/
+      \endverb
+    \endentry
+    \entry{jsoncpp}{online}{}
+      \field{sortinit}{R}
+      \field{labeltitle}{\enquote{Repositorio oficial de JsonCpp}}
+      \field{title}{\enquote{Repositorio oficial de JsonCpp}}
+      \field{urlday}{24}
+      \field{urlmonth}{06}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://github.com/open-source-parsers/jsoncpp
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
 \endinput
 

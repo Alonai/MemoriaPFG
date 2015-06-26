@@ -26,7 +26,7 @@
 \BOOKMARK [1][]{section.2.7}{Planificación}{chapter.2}% 26
 \BOOKMARK [2][]{subsection.2.7.1}{Plan\040de\040trabajo}{section.2.7}% 27
 \BOOKMARK [2][]{subsection.2.7.2}{Diagrama\040de\040Gantt}{section.2.7}% 28
-\BOOKMARK [2][]{subsection.2.7.3}{Diagrama\040de\040Red}{section.2.7}% 29
+\BOOKMARK [2][]{subsection.2.7.3}{Diagrama\040de\040Precedencias}{section.2.7}% 29
 \BOOKMARK [1][]{section.2.8}{Presupuesto}{chapter.2}% 30
 \BOOKMARK [2][]{subsection.2.8.1}{Software}{section.2.8}% 31
 \BOOKMARK [2][]{subsection.2.8.2}{Hardware}{section.2.8}% 32
@@ -43,45 +43,56 @@
 \BOOKMARK [0][]{chapter.4}{Especificación del Diseño}{}% 43
 \BOOKMARK [1][]{section.4.1}{Visión general}{chapter.4}% 44
 \BOOKMARK [1][]{section.4.2}{Arquitectura}{chapter.4}% 45
-\BOOKMARK [1][]{section.4.3}{Diagramas\040de\040actividad}{chapter.4}% 46
-\BOOKMARK [1][]{section.4.4}{Tecnologías utilizadas}{chapter.4}% 47
-\BOOKMARK [2][]{subsection.4.4.1}{sfml}{section.4.4}% 48
-\BOOKMARK [2][]{subsection.4.4.2}{C++}{section.4.4}% 49
-\BOOKMARK [2][]{subsection.4.4.3}{json}{section.4.4}% 50
-\BOOKMARK [2][]{subsection.4.4.4}{tgui}{section.4.4}% 51
-\BOOKMARK [2][]{subsection.4.4.5}{JsonCpp}{section.4.4}% 52
-\BOOKMARK [0][]{chapter.5}{Consideraciones sobre la implementación}{}% 53
-\BOOKMARK [1][]{section.5.1}{Visión general}{chapter.5}% 54
-\BOOKMARK [1][]{section.5.2}{Reglas\040de\040estilo}{chapter.5}% 55
-\BOOKMARK [1][]{section.5.3}{Entorno\040de\040desarrollo}{chapter.5}% 56
-\BOOKMARK [2][]{subsection.5.3.1}{Atom}{section.5.3}% 57
-\BOOKMARK [2][]{subsection.5.3.2}{gcc}{section.5.3}% 58
-\BOOKMARK [2][]{subsection.5.3.3}{Git}{section.5.3}% 59
-\BOOKMARK [2][]{subsection.5.3.4}{Make}{section.5.3}% 60
-\BOOKMARK [2][]{subsection.5.3.5}{darkFunction\040Editor}{section.5.3}% 61
-\BOOKMARK [2][]{subsection.5.3.6}{xml\040to\040json}{section.5.3}% 62
-\BOOKMARK [2][]{subsection.5.3.7}{gimp}{section.5.3}% 63
-\BOOKMARK [1][]{section.5.4}{Desarrollo\040del\040juego}{chapter.5}% 64
-\BOOKMARK [2][]{subsection.5.4.1}{Animaciones}{section.5.4}% 65
-\BOOKMARK [2][]{subsection.5.4.2}{Generación de mapas}{section.5.4}% 66
-\BOOKMARK [2][]{subsection.5.4.3}{Sistemas\040de\040estados\040para\040entidades}{section.5.4}% 67
-\BOOKMARK [2][]{subsection.5.4.4}{IA\040enemiga}{section.5.4}% 68
-\BOOKMARK [2][]{subsection.5.4.5}{Gestión de escenas}{section.5.4}% 69
-\BOOKMARK [0][]{chapter.6}{Plan\040de\040Pruebas}{}% 70
-\BOOKMARK [1][]{section.6.1}{Pruebas\040unitarias}{chapter.6}% 71
-\BOOKMARK [1][]{section.6.2}{Pruebas de integración}{chapter.6}% 72
-\BOOKMARK [1][]{section.6.3}{Pruebas\040de\040hardware}{chapter.6}% 73
-\BOOKMARK [1][]{section.6.4}{Pruebas\040de\040usabilidad}{chapter.6}% 74
-\BOOKMARK [0][]{chapter.7}{Manual\040de\040Usuario}{}% 75
-\BOOKMARK [0][]{chapter.8}{Incidencias}{}% 76
-\BOOKMARK [1][]{section.8.1}{Visión general}{chapter.8}% 77
-\BOOKMARK [1][]{section.8.2}{Conversión de XML a JSON}{chapter.8}% 78
-\BOOKMARK [1][]{section.8.3}{SFML\040del\040repositorio\040desactualizada}{chapter.8}% 79
-\BOOKMARK [1][]{section.8.4}{Error de inicialización de palanca de juego}{chapter.8}% 80
-\BOOKMARK [0][]{chapter.9}{Conclusiones y Líneas Futuras}{}% 81
-\BOOKMARK [1][]{section.9.1}{Visión general}{chapter.9}% 82
-\BOOKMARK [1][]{section.9.2}{Objetivos\040cumplidos}{chapter.9}% 83
-\BOOKMARK [1][]{section.9.3}{Consideraciones\040del\040trabajo\040realizado}{chapter.9}% 84
-\BOOKMARK [1][]{section.9.4}{Líneas Futuras}{chapter.9}% 85
-\BOOKMARK [0][]{section*.50}{Acrónimos}{}% 86
-\BOOKMARK [0][]{appendix*.52}{Agradecimientos}{}% 87
+\BOOKMARK [1][]{section.4.3}{Diagrama\040de\040clases}{chapter.4}% 46
+\BOOKMARK [1][]{section.4.4}{Diagramas\040de\040actividad}{chapter.4}% 47
+\BOOKMARK [1][]{section.4.5}{Tecnologías utilizadas}{chapter.4}% 48
+\BOOKMARK [2][]{subsection.4.5.1}{sfml}{section.4.5}% 49
+\BOOKMARK [2][]{subsection.4.5.2}{C++}{section.4.5}% 50
+\BOOKMARK [2][]{subsection.4.5.3}{json}{section.4.5}% 51
+\BOOKMARK [2][]{subsection.4.5.4}{tgui}{section.4.5}% 52
+\BOOKMARK [2][]{subsection.4.5.5}{JsonCpp}{section.4.5}% 53
+\BOOKMARK [1][]{section.4.6}{Diseño del juego}{chapter.4}% 54
+\BOOKMARK [2][]{subsection.4.6.1}{Jugador}{section.4.6}% 55
+\BOOKMARK [2][]{subsection.4.6.2}{Enemigos}{section.4.6}% 56
+\BOOKMARK [2][]{subsection.4.6.3}{Colisiones\040con\040el\040mundo}{section.4.6}% 57
+\BOOKMARK [2][]{subsection.4.6.4}{Colisiones\040con\040objetos}{section.4.6}% 58
+\BOOKMARK [2][]{subsection.4.6.5}{Objetivo}{section.4.6}% 59
+\BOOKMARK [1][]{section.4.7}{Plan\040de\040Pruebas}{chapter.4}% 60
+\BOOKMARK [2][]{subsection.4.7.1}{Pruebas\040unitarias}{section.4.7}% 61
+\BOOKMARK [2][]{subsection.4.7.2}{Pruebas de integración}{section.4.7}% 62
+\BOOKMARK [2][]{subsection.4.7.3}{Pruebas\040de\040hardware}{section.4.7}% 63
+\BOOKMARK [2][]{subsection.4.7.4}{Pruebas\040de\040usabilidad}{section.4.7}% 64
+\BOOKMARK [0][]{chapter.5}{Consideraciones sobre la implementación}{}% 65
+\BOOKMARK [1][]{section.5.1}{Visión general}{chapter.5}% 66
+\BOOKMARK [1][]{section.5.2}{Reglas\040de\040estilo}{chapter.5}% 67
+\BOOKMARK [1][]{section.5.3}{Entorno\040de\040desarrollo}{chapter.5}% 68
+\BOOKMARK [2][]{subsection.5.3.1}{Atom}{section.5.3}% 69
+\BOOKMARK [2][]{subsection.5.3.2}{gcc}{section.5.3}% 70
+\BOOKMARK [2][]{subsection.5.3.3}{Git}{section.5.3}% 71
+\BOOKMARK [2][]{subsection.5.3.4}{Make}{section.5.3}% 72
+\BOOKMARK [2][]{subsection.5.3.5}{darkFunction\040Editor}{section.5.3}% 73
+\BOOKMARK [2][]{subsection.5.3.6}{xml\040to\040json}{section.5.3}% 74
+\BOOKMARK [2][]{subsection.5.3.7}{gimp}{section.5.3}% 75
+\BOOKMARK [1][]{section.5.4}{Desarrollo\040del\040juego}{chapter.5}% 76
+\BOOKMARK [2][]{subsection.5.4.1}{Animaciones}{section.5.4}% 77
+\BOOKMARK [2][]{subsection.5.4.2}{Generación de mapas}{section.5.4}% 78
+\BOOKMARK [2][]{subsection.5.4.3}{Sistemas\040de\040estados\040para\040entidades}{section.5.4}% 79
+\BOOKMARK [2][]{subsection.5.4.4}{ia\040enemiga}{section.5.4}% 80
+\BOOKMARK [2][]{subsection.5.4.5}{Gestión de escenas}{section.5.4}% 81
+\BOOKMARK [0][]{chapter.6}{Incidencias}{}% 82
+\BOOKMARK [1][]{section.6.1}{Visión general}{chapter.6}% 83
+\BOOKMARK [1][]{section.6.2}{Conversión de XML a JSON}{chapter.6}% 84
+\BOOKMARK [1][]{section.6.3}{SFML\040del\040repositorio\040desactualizada}{chapter.6}% 85
+\BOOKMARK [1][]{section.6.4}{Error de inicialización de palanca de juego}{chapter.6}% 86
+\BOOKMARK [0][]{chapter.7}{Conclusiones y Líneas Futuras}{}% 87
+\BOOKMARK [1][]{section.7.1}{Visión general}{chapter.7}% 88
+\BOOKMARK [1][]{section.7.2}{Objetivos\040cumplidos}{chapter.7}% 89
+\BOOKMARK [1][]{section.7.3}{Consideraciones\040del\040trabajo\040realizado}{chapter.7}% 90
+\BOOKMARK [1][]{section.7.4}{Líneas Futuras}{chapter.7}% 91
+\BOOKMARK [0][]{chapter*.51}{Bibliografía}{}% 92
+\BOOKMARK [0][]{section*.52}{Acrónimos}{}% 93
+\BOOKMARK [0][]{appendix.Alph1}{Manual\040de\040Usuario}{}% 94
+\BOOKMARK [1][]{section.Alph1.1}{Menú principal}{appendix.Alph1}% 95
+\BOOKMARK [1][]{section.Alph1.2}{Objetivo}{appendix.Alph1}% 96
+\BOOKMARK [1][]{section.Alph1.3}{Controles}{appendix.Alph1}% 97
+\BOOKMARK [0][]{appendix*.54}{Agradecimientos}{}% 98
