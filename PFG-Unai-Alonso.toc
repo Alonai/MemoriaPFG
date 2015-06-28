@@ -72,13 +72,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.4}Control de cambios}{10}{subsection.2.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Planificación}{10}{section.2.7}
+\contentsline {section}{\numberline {2.7}Planificación}{11}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}Plan de trabajo}{10}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.1}Plan de trabajo}{11}{subsection.2.7.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.2}Diagrama de Gantt}{19}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.3}Diagrama de Precedencias}{19}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.3}Diagrama de Precedencias}{20}{subsection.2.7.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}Presupuesto}{25}{section.2.8}
 \defcounter {refsection}{0}\relax 
@@ -112,13 +112,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Arquitectura}{31}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Diagrama de clases}{31}{section.4.3}
+\contentsline {section}{\numberline {4.3}Diagrama de clases}{32}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Diagramas de actividad}{32}{section.4.4}
+\contentsline {section}{\numberline {4.4}Diagramas de actividad}{33}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Tecnologías utilizadas}{34}{section.4.5}
+\contentsline {section}{\numberline {4.5}Tecnologías utilizadas}{33}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}\acrshort {sfml}}{34}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}\acrshort {sfml}}{33}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}C++}{34}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
@@ -126,23 +126,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.4}\acrshort {tgui}}{36}{subsection.4.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}JsonCpp}{37}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.5}JsonCpp}{36}{subsection.4.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Diseño del juego}{37}{section.4.6}
+\contentsline {section}{\numberline {4.6}Diseño del juego}{36}{section.4.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.1}Jugador}{37}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.2}Enemigos}{37}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.3}Colisiones con el mundo}{38}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.3}Colisiones con el mundo}{37}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.4}Colisiones con objetos}{38}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.4}Colisiones con objetos}{37}{subsection.4.6.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.5}Objetivo}{38}{subsection.4.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.7}Plan de Pruebas}{38}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Pruebas unitarias}{39}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.1}Pruebas unitarias}{38}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.7.2}Pruebas de integración}{39}{subsection.4.7.2}
 \defcounter {refsection}{0}\relax 

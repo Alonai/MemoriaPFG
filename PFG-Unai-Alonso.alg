@@ -36,7 +36,7 @@ Scanning input file PFG-Unai-Alonso.acn...
 !! Input index error (file = PFG-Unai-Alonso.acn, line = 17):
    -- Illegal space within numerals in second argument.
 .done (137 entries accepted, 17 rejected).
-Sorting entries....done (1232 comparisons).
-Generating output file PFG-Unai-Alonso.acr....done (88 lines written, 0 warnings).
+Sorting entries....done (1233 comparisons).
+Generating output file PFG-Unai-Alonso.acr....done (89 lines written, 0 warnings).
 Output written in PFG-Unai-Alonso.acr.
 Transcript written in PFG-Unai-Alonso.alg.
