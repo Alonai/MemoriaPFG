@@ -202,7 +202,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Consideraciones del trabajo realizado}{56}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Líneas luturas}{57}{section.7.4}
+\contentsline {section}{\numberline {7.4}Líneas futuras}{57}{section.7.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliograf\'{\i }a}{59}{chapter*.51}
 \defcounter {refsection}{0}\relax 
