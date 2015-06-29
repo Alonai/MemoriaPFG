@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Presentación del Documento}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Presentación del documento}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Estado del arte y motivación}{1}{section.1.2}
 \defcounter {refsection}{0}\relax 
@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Método de desarrollo}{6}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Tareas principales:}{7}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Tareas principales}{7}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Lanzamiento del proyecto}{7}{subsubsection*.12}
 \defcounter {refsection}{0}\relax 
@@ -54,7 +54,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Distribución y cierre del proyecto}{8}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Productos intermedios:}{8}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Productos intermedios}{8}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Organización}{8}{section.2.5}
 \defcounter {refsection}{0}\relax 
@@ -78,7 +78,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.2}Diagrama de Gantt}{19}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.3}Diagrama de Precedencias}{20}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.3}Diagrama de precedencias}{20}{subsection.2.7.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}Presupuesto}{25}{section.2.8}
 \defcounter {refsection}{0}\relax 
@@ -90,7 +90,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.8.4}Total}{25}{subsection.2.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Especificación de Requisitos}{27}{chapter.3}
+\contentsline {chapter}{\numberline {3}Especificación de requisitos}{27}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Visión general}{27}{section.3.1}
 \defcounter {refsection}{0}\relax 
@@ -106,7 +106,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Criterios de validación}{28}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Especificación del Diseño}{31}{chapter.4}
+\contentsline {chapter}{\numberline {4}Especificación del diseño}{31}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Visión general}{31}{section.4.1}
 \defcounter {refsection}{0}\relax 
@@ -140,7 +140,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.5}Objetivo}{38}{subsection.4.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Plan de Pruebas}{38}{section.4.7}
+\contentsline {section}{\numberline {4.7}Plan de pruebas}{38}{section.4.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.7.1}Pruebas unitarias}{38}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
@@ -194,7 +194,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.4}Error de inicialización de palanca de juego}{52}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusiones y Líneas Futuras}{55}{chapter.7}
+\contentsline {chapter}{\numberline {7}Conclusiones y líneas futuras}{55}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Visión general}{55}{section.7.1}
 \defcounter {refsection}{0}\relax 
@@ -202,13 +202,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Consideraciones del trabajo realizado}{56}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Líneas Futuras}{57}{section.7.4}
+\contentsline {section}{\numberline {7.4}Líneas luturas}{57}{section.7.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliograf\'{\i }a}{59}{chapter*.51}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Acrónimos}{61}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Manual de Usuario}{63}{appendix.Alph1}
+\contentsline {chapter}{\numberline {A}Manual de usuario}{63}{appendix.Alph1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Menú principal}{63}{section.Alph1.1}
 \defcounter {refsection}{0}\relax 
